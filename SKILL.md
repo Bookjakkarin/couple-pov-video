@@ -29,16 +29,20 @@ at once; load per phase.
 3. `README.md` — repo map + pipeline overview.
 4. An existing episode (e.g. `episodes/EP001_midnight-snack/`) — the reference for every phase's
    output format. Match it exactly.
+5. `agents/DIRECTOR.md` — the co-production director / QA gate you run on every phase before Book sees
+   it (story logic, motion smoothness, reaction causality, continuity + the channel's hard rules).
 
 ## How you run (the interaction contract)
 Run **one phase at a time**. When Book says "run phase N" / "new episode about X" / "give me
 themes":
 1. Produce the phase output in the SAME format as EP001's matching file.
-2. Self-review it against `docs/CONCEPT.md` §7 (style tag is 3D-chibi NOT photorealistic; negative
-   prompt is technical-only, no danger/scary words; no stacked negation in the body; wordless rule +
-   music-once-in-CapCut respected; absolute panel timing).
+2. **Run the Director gate** (`agents/DIRECTOR.md`) on the output — the co-production QA pass. For
+   motion prompts (Phase 5) this is the critical gate: story logic, cause→effect reaction causality
+   (no laughing before engaging), within-scene continuity (no teleporting), explicit entry/exit
+   states that link scene-to-scene, one clean camera move, concrete per-beat `Motion:` bullets. If it
+   returns FIX, revise silently and re-run until PASS. Never show Book a draft that hasn't passed.
 3. Save to the correct file (or show inline if Book prefers).
-4. **End with the output + "อนุมัติไหมครับ? พิมพ์ ต่อ เพื่อไปเฟสถัดไป หรือบอกจุดที่อยากแก้"**
+4. **End with the output + the DIRECTOR CHECK block + "อนุมัติไหมครับ? พิมพ์ ต่อ เพื่อไปเฟสถัดไป หรือบอกจุดที่อยากแก้"**
    (Approve → next, or tell me what to edit).
 5. On "ต่อ"/"next"/"go" → run the next phase. On edits → revise, re-show, ask again. Don't skip
    ahead unprompted or batch all phases unless Book says "run everything".

@@ -149,6 +149,30 @@ Restate positively in every scene prompt:
   `photorealistic, live-action, realistic animal, 2D flat cartoon, harsh flat lighting, static
   locked-off camera, shaky cam, off-model characters, only one character visible when both should be`.
 
+## 6b. Motion-writing standard (smooth motion + a story that reads with zero words)
+Book's recurring complaint about AI clips: strange/jerky motion, scenes that don't connect, and
+characters reacting/laughing with no on-screen cause. Every motion prompt MUST be written to prevent
+this (the Director gate, `agents/DIRECTOR.md`, enforces it):
+- **One continuous action chain per clip.** Describe the 8s as a single flowing sequence, beat by
+  beat, where each 2s beat physically follows from the one before — no character or prop snapping to a
+  new position. Say it's "one continuous shot".
+- **Concrete `Motion:` per beat.** Spell out the actual physical movement (which limb/body does what,
+  in what direction), never a vague verb like "he reacts" or "they interact" — vague verbs are what
+  produce strange motion.
+- **Cause → effect; every reaction is earned.** Each emotional beat (gasp, freeze, giggle, blush) has
+  an on-screen trigger in an EARLIER beat. **Never have a character laugh or react before they've
+  actually seen/engaged the other** — surprised DURING the reveal, giggling AFTER recognition. If you
+  write a laugh, you must be able to point to the beat that caused it.
+- **Explicit ENTRY and EXIT frame state, matched to neighbors.** State the frame the scene starts on
+  and ends on. The entry must be consistent with the previous scene's exit (same place/pose/who's
+  present, or a clean motivated cut); the exit sets up the next scene. This is what makes scenes
+  connect instead of reading as disconnected clips (ตัดแปะ).
+- **One clean camera move per clip.** A single smooth motivated move (one push-in / one arc / one
+  settle). No second angle, no cuts inside a clip, no whip pans — multiple moves = jarring transitions.
+- **Expression matches the beat's logic at that exact moment** — don't describe the payoff face
+  before the payoff.
+See EP001 `02_motion_prompts.md` SC01 as the worked example of this format.
+
 ## 7. What carries over from the sibling projects (lessons already learned — don't re-discover)
 - **Veo/Flow is stateless** — restate character designs, style, and camera in EVERY prompt, EVERY
   scene.

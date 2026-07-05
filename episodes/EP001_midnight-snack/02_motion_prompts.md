@@ -20,42 +20,68 @@
 > dramatic over-reactions); Poppy is the cheeky little troublemaker (buck teeth, cocked eyebrow,
 > super-expressive floppy ears, sly schemer energy). Keep faces and reactions exaggerated and funny.
 
-## Scene SC01 (0:00-0:08) — Bruno sneaks out of bed
-Ingredients (Ingredients to Video mode): (1) Bruno ingredient image (`assets/characters/bruno-ingredient.jpg`);
-(2) a single still of the cozy bedroom (crop the "Cozy bedroom" panel from `location-sheet.jpg`).
-Poppy is not on screen this scene.
+## Scene SC01 (0:00-0:08) — Bruno wakes up hungry and sneaks toward the kitchen
+Ingredients (Ingredients to Video mode): (1) Bruno ingredient image (`assets/characters/bruno-ingredient.jpg`)
+= the big goofy caramel-brown bear. Poppy is NOT on screen this scene. Setting still: crop the
+"Cozy bedroom" panel from `location-sheet.jpg`.
+
+**Story logic (why each thing happens, so nothing looks random):** a hunger pang wakes Bruno → seeing
+the doorway, he decides to sneak a midnight snack → he climbs out carefully so he won't wake anyone →
+he tiptoes over and peeks toward the kitchen, poised to go. Each action is caused by the one before.
+
+**Continuity — ENTRY:** dim-but-legible bedroom, Bruno asleep on his back in bed (never open on pure
+black). **EXIT:** Bruno standing at the open bedroom doorway, leaning out and peeking down the dark
+hallway toward the kitchen — this hands directly to SC02 (he arrives in the kitchen).
 
 ### Video prompt (paste into Veo)
-Using the provided reference images to lock identity and setting: the big goofy caramel-brown bear is
-BRUNO — replicate his exact appearance (caramel-brown fur, springy cowlick tuft, big round googly
-eyes, chubby cheeks, tongue-out goofy grin, round belly, too-small forest-green hoodie, big-head
-chibi proportions) from the reference image in every frame — and place him in the cozy bedroom
-matching the provided bedroom reference. Create an 8-second video in 3D animated Pixar/chibi style —
-soft 3D render, glossy cute look, warm cozy nighttime lighting with soft blue moonlight through the
-curtains and a tiny warm lamp glow, shallow depth of field. Bruno quietly sneaks out of bed for a
-midnight snack: he eases the plump blanket off, carefully slips out (the other side of the bed an
-empty rumpled lump), tiptoes across the floor on his toes with his big body comically balanced and
-one paw on his round belly, and peeks out the bedroom doorway toward the dim hallway with a hopeful
-hungry goofy look. Cute cinematic third-person framing that clearly shows Bruno's sneaky, hopeful
-expressions.
-Camera: gentle third-person, eye-level, soft slow moves that follow Bruno's careful tiptoe; a small
-push-in on his hopeful face at the doorway. 0:00-0:02: Bruno's eyes opening in the big soft bed.
-0:02-0:04: carefully lifting the blanket and easing out, exaggerated careful expression. 0:04-0:06:
-tiptoeing across the bedroom, paw on belly. 0:06-0:08: peeking out the doorway toward the moonlit
-hallway.
-Include natural synchronized sound effects matching the visuals: a soft blanket rustle, a quiet
-floor creak under his careful steps, a low hungry tummy grumble. The character expresses himself
-ONLY through non-verbal sounds — here a tiny "shhh" breath and a soft hopeful hum — never words. NO
-spoken words, NO intelligible dialogue, NO narration, NO music or musical score in this clip — sound
-effects and wordless character sounds only, matched naturally to the motion on screen.
-Render the full 8 seconds with a complete ending — do not cut off early. Soft glossy 3D animated
-Pixar/chibi style, warm cozy nighttime lighting, no on-screen text, captions, subtitles, or
-watermark.
+Using the provided reference image to lock identity: the big goofy caramel-brown bear is BRUNO —
+replicate his exact appearance from the reference image in every frame (caramel-brown fur, springy
+cowlick tuft, big round googly eyes, chubby cheeks, tongue-out goofy grin, round belly, too-small
+forest-green hoodie, big-head chibi proportions). Place him in the cozy bedroom at night matching the
+provided bedroom reference. Create a single continuous 8-second shot in 3D animated Pixar/chibi style
+— soft 3D render, glossy cute look, warm cozy nighttime lighting with soft blue moonlight through the
+curtains and a tiny warm lamp glow on the nightstand, shallow depth of field, cute cinematic
+third-person framing that clearly reads Bruno's face. The whole clip is ONE smooth, continuous action
+chain — a hungry bear quietly getting up to raid the kitchen — with natural physical motion and no
+snapping or teleporting between poses:
+0:00-0:02 — Bruno lies on his back in the big soft bed, blanket up to his chest, fast asleep. His
+round belly gives a rumble and his nose twitches; his eyes blink slowly open and he stares upward,
+suddenly awake with a hungry thought. Motion: gentle breathing rise-and-fall, a small belly jiggle on
+the rumble, slow eyelids opening, a little head tilt as he wakes.
+0:02-0:04 — hungry and now decided, Bruno turns his head toward the bedroom doorway (his snack goal),
+then pushes the blanket down and off himself with both paws and begins to sit up. Beside him the other
+half of the bed is an empty rumpled dent, visible to us, but Bruno is fixated on food and doesn't
+notice it. Motion: head turns to look at the door, both arms push the blanket down toward his feet,
+torso curls up to sitting.
+0:04-0:06 — Bruno swings his legs over the edge of the bed and eases his big round body up to
+standing, in exaggerated slow "don't-wake-anyone" care, arms out for balance with a slight comedic
+wobble, one paw pressing his still-rumbling belly. Motion: legs swing off the bed and feet plant on
+the floor, weight shifts forward, he rises to full standing in one careful continuous motion, a small
+wobble as he steadies.
+0:06-0:08 — Bruno tiptoes across the bedroom on his toes to the doorway, then leans his head out
+around the door frame and peeks down the dark hallway toward the kitchen, eyes wide and hopeful, a
+happy hungry grin spreading; he holds there, poised to go. Motion: three or four exaggerated
+high-kneed careful tiptoe steps to the door, then a lean and head-turn out through the doorway,
+settling into an eager hold.
+Camera: ONE slow, smooth push-in across the entire clip — starting on a wide of Bruno in bed and
+ending on a medium of him peeking at the doorway. No cuts, no second angle, no whip pans, no jerky
+moves; the push-in settles gently on his hopeful face at the end (this framing hands off to SC02).
+Include natural synchronized sound effects matching the visuals: a low hungry tummy rumble around
+0:01, a soft blanket rustle as he pushes it off, a gentle bed creak as he rises, and careful padding
+tiptoe steps on the floor. Bruno expresses himself ONLY through non-verbal sounds — a soft sleepy
+grunt as he wakes and a tiny eager hopeful hum as he peeks — never words. NO spoken words, NO
+intelligible dialogue, NO narration, NO music or musical score in this clip — sound effects and
+wordless character sounds only, matched naturally to the motion on screen.
+Render the full 8 seconds as ONE continuous shot with a complete, settled ending — do not cut off
+early and do not add a second camera angle. Soft glossy 3D animated Pixar/chibi style, warm cozy
+nighttime lighting, no on-screen text, captions, subtitles, or watermark.
 Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
-illustration, harsh flat lighting, static locked-off camera, shaky cam, off-model character,
-inconsistent fur color, inconsistent outfit, extra limbs, deformed paws, distorted features, brand
-logos, brand packaging, readable labels, extra characters, spoken words, dialogue, voice-over,
-background music, text, logo, watermark, blurry, low quality, busy cluttered background.
+illustration, harsh flat lighting, static locked-off camera, shaky cam, fast cuts, multiple camera
+angles, teleporting between poses, snapping or jittery motion, morphing limbs, floating body,
+off-model character, inconsistent fur color, inconsistent outfit, extra limbs, deformed paws,
+distorted features, a second character in the bed, brand logos, brand packaging, readable labels,
+spoken words, dialogue, voice-over, background music, text, logo, watermark, blurry, low quality,
+busy cluttered background.
 → clip: clips/EP001_SC01.mp4
 
 ---
