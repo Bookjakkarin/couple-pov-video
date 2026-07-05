@@ -19,6 +19,11 @@
 >   kitchen still each time (SC02 and SC04 drifted to different fridges).
 > - **Presence logic:** Poppy is asleep in bed in SC01, ABSENT in SC02, ARRIVES in SC03.
 > - **Reactions only AFTER the trigger** — nobody laughs before Bruno and Poppy actually see each other.
+> - **Scene continuity (playbook §C):** each scene is tagged CUT or CONTINUOUS/Extend. For a
+>   CONTINUOUS scene, **attach the previous clip in Flow and use Extend**, and the prompt OPENS with
+>   the previous scene's exact ending frame restated verbatim (EXIT of SCn == opening of SCn+1) so it
+>   picks up with no jump. SC01→SC02 is a CUT (bedroom→kitchen); SC02→SC03 and SC03→SC04 are
+>   CONTINUOUS/Extend (same fridge).
 >
 > Play the comedy through expressions IN THE PROMPT (the ingredient images are now neutral): Bruno the
 > goofy doofus, Poppy the cheeky one. Keep faces readable and funny.
@@ -26,8 +31,9 @@
 ## Scene SC01 (0:00-0:08) — Both asleep; Bruno wakes hungry and sneaks out
 Ingredients: (1) Bruno = `bruno-ingredient.jpg`; (2) Poppy = `poppy-ingredient.jpg`; (3) a single
 still of the DARK cozy bedroom (crop the "Cozy bedroom" panel from `location-sheet.jpg`).
+**Continuity:** OPENER — no previous clip to attach.
 **ENTRY:** dark bedroom, both asleep in one bed. **EXIT:** Bruno has tiptoed out of frame; Poppy still
-asleep alone in bed (hands to SC02, Bruno now in the kitchen — a cut).
+asleep alone in bed (hands to SC02 via a CUT — different room).
 
 ### Video prompt (paste into Veo)
 Using the provided reference images to lock identity: the big goofy caramel-brown bear is BRUNO and
@@ -77,8 +83,12 @@ watermark, blurry, low quality, busy cluttered background.
 Ingredients: (1) Bruno = `bruno-ingredient.jpg`; (2) a single still of the DARK night kitchen with
 the mint-green retro fridge (crop the fridge/kitchen panel from `location-sheet.jpg` — use this SAME
 still in SC03 and SC04). Poppy is NOT on screen.
-**ENTRY:** dark kitchen, fridge closed. **EXIT:** Bruno standing at the OPEN mint-green fridge with a
-snack in paw (hands directly to SC03, where Poppy arrives behind him).
+**Continuity:** CUT from SC01 (new location — bedroom → kitchen). Do NOT attach/extend the SC01 clip;
+this is a fresh shot. Carry Bruno's state (hungry, sneaking). Use the Bruno ingredient image.
+**ENTRY:** dark kitchen, fridge closed, Bruno entering.
+**EXIT (shared boundary — SC03 opens on this exact frame):** Bruno stands facing the open mint-green
+fridge, a cookie in one paw held near his mouth, warm golden fridge-light spilling over him in the
+otherwise dark kitchen; Poppy is not yet in the room.
 
 ### Video prompt (paste into Veo)
 Using the provided reference image to lock identity: the big goofy caramel-brown bear is BRUNO —
@@ -120,25 +130,33 @@ background music, text, logo, watermark, blurry, low quality, busy cluttered bac
 ---
 
 ## Scene SC03 (0:16-0:24) — Poppy pads in; they find each other (the happy surprise)
-Ingredients: (1) Bruno = `bruno-ingredient.jpg`; (2) Poppy = `poppy-ingredient.jpg`; (3) the SAME
-dark kitchen / mint-green fridge still used in SC02.
-**ENTRY:** matches SC02 exit — Bruno at the open fridge with a snack. **EXIT:** the two share a warm
-giggle facing each other (hands to SC04, they sit down to share).
+**Continuity:** CONTINUOUS / Extend from SC02. **In Flow, attach `clips/EP001_SC02.mp4` and use
+Extend** so this clip continues that shot. Ingredients (backup identity + setting): (1) Bruno =
+`bruno-ingredient.jpg`; (2) Poppy = `poppy-ingredient.jpg`; (3) the SAME dark kitchen / mint-green
+fridge still used in SC02.
+**ENTRY (= SC02's exact EXIT frame):** Bruno stands facing the open mint-green fridge, a cookie in one
+paw held near his mouth, warm golden fridge-light spilling over him in the otherwise dark kitchen;
+Poppy is not yet in the room. **EXIT (shared boundary — SC04 opens on this exact frame):** Bruno and
+Poppy stand together facing each other in front of the open mint-green fridge in the warm glow, having
+just shared a giggle — Poppy's paw at her mouth, Bruno grinning.
 > Policy note: keep this a warm HAPPY SURPRISE between the couple. Do NOT use "caught red-handed /
 > guilty / freeze / busted" framing — that tripped Flow's filter on the first attempt.
 
 ### Video prompt (paste into Veo)
-Using the provided reference images to lock identity: the big goofy caramel-brown bear is BRUNO and
-the small cream-white bunny is POPPY — replicate their exact appearance from the reference images
-(Bruno: caramel-brown fur, cowlick tuft, round belly, forest-green hoodie; Poppy: cream-white fur,
-small buck teeth, long floppy ears, blush-pink sweater), Bruno clearly BIGGER. Dark cozy kitchen at
-2am with the mint-green retro fridge, matching the provided kitchen reference. IMPORTANT LIGHTING: the
-kitchen is dark, lit ONLY by the warm golden glow of the open fridge; relight both characters to match
-— warmly but softly lit by the fridge glow, the rest of the kitchen in shadow, NOT brightly lit.
-Create a single continuous 8-second shot in 3D animated Pixar/chibi style, soft 3D render, glossy cute
-look, shallow depth of field, cute cinematic third-person framing that clearly reads both faces. ONE
-smooth continuous action chain — a happy little surprise between two sleepy sweethearts — with natural
-motion, no snapping:
+This clip continues directly from the previous video (attached — use Extend): it begins on the exact
+final frame of the previous scene — Bruno stands facing the open mint-green fridge, a cookie in one
+paw held near his mouth, warm golden fridge-light spilling over him in the otherwise dark kitchen,
+Poppy not yet in the room. Continuing smoothly from there with no jump, the scene plays out below.
+Keep identity consistent with the attached clip and the provided reference images: the big goofy
+caramel-brown bear is BRUNO and the small cream-white bunny is POPPY (Bruno: caramel-brown fur,
+cowlick tuft, round belly, forest-green hoodie; Poppy: cream-white fur, small buck teeth, long floppy
+ears, blush-pink sweater), Bruno clearly BIGGER. Dark cozy kitchen at 2am with the mint-green retro
+fridge. IMPORTANT LIGHTING: the kitchen is dark, lit ONLY by the warm golden glow of the open fridge;
+keep both characters warmly but softly lit by the fridge glow, the rest of the kitchen in shadow, NOT
+brightly lit. 3D animated Pixar/chibi style, soft 3D render, glossy cute look, shallow depth of field,
+cute cinematic third-person framing that clearly reads both faces. ONE smooth continuous 8-second
+action chain — a happy little surprise between two sleepy sweethearts — with natural motion, no
+snapping:
 0:16-0:18 — Bruno stands at the open fridge in the warm glow, happily taking a bite of his snack.
 Behind him in the dark, small sleepy Poppy pads into the kitchen, rubbing one eye with a paw. Motion:
 Bruno chewing contentedly; Poppy shuffles slowly in from the background, rubbing her eye.
@@ -171,22 +189,28 @@ music, text, logo, watermark, blurry, low quality, busy cluttered background.
 ---
 
 ## Scene SC04 (0:24-0:32) — Sharing the snack on the floor (the heart)
-Ingredients: (1) Bruno = `bruno-ingredient.jpg`; (2) Poppy = `poppy-ingredient.jpg`; (3) the SAME
-dark kitchen / mint-green fridge still used in SC02/SC03.
-**ENTRY:** matches SC03 exit — the two standing together at the open fridge, just shared a giggle.
-**EXIT:** the cozy cuddle button (the SC04 test render already nailed this look — keep it).
+**Continuity:** CONTINUOUS / Extend from SC03. **In Flow, attach `clips/EP001_SC03.mp4` and use
+Extend** so this clip continues that shot. Ingredients (backup identity + setting): (1) Bruno =
+`bruno-ingredient.jpg`; (2) Poppy = `poppy-ingredient.jpg`; (3) the SAME dark kitchen / mint-green
+fridge still used in SC02/SC03.
+**ENTRY (= SC03's exact EXIT frame):** Bruno and Poppy stand together facing each other in front of
+the open mint-green fridge in the warm glow, having just shared a giggle — Poppy's paw at her mouth,
+Bruno grinning. **EXIT:** the cozy cuddle button (the SC04 test render already nailed this look —
+keep it).
 
 ### Video prompt (paste into Veo)
-Using the provided reference images to lock identity: the big goofy caramel-brown bear is BRUNO and
-the small cream-white bunny is POPPY — replicate their exact appearance from the reference images
-(Bruno: caramel-brown fur, cowlick tuft, round belly, forest-green hoodie; Poppy: cream-white fur,
-small buck teeth, long floppy ears, blush-pink sweater), Bruno clearly BIGGER. Dark cozy kitchen at
-2am with the mint-green retro fridge, matching the provided kitchen reference. IMPORTANT LIGHTING: the
-kitchen is dark, lit ONLY by the warm golden glow of the open fridge; relight both characters to match
-— warmly and softly lit by the fridge glow, the rest in shadow, NOT brightly lit. Create a single
-continuous 8-second shot in 3D animated Pixar/chibi style, soft 3D render, glossy cute look, shallow
-depth of field, cute cinematic third-person framing showing both warmly. ONE smooth continuous action
-chain, natural motion, no snapping:
+This clip continues directly from the previous video (attached — use Extend): it begins on the exact
+final frame of the previous scene — Bruno and Poppy stand together facing each other in front of the
+open mint-green fridge in the warm glow, having just shared a giggle, Poppy's paw at her mouth, Bruno
+grinning. Continuing smoothly from there with no jump, the scene plays out below. Keep identity
+consistent with the attached clip and the provided reference images: the big goofy caramel-brown bear
+is BRUNO and the small cream-white bunny is POPPY (Bruno: caramel-brown fur, cowlick tuft, round belly,
+forest-green hoodie; Poppy: cream-white fur, small buck teeth, long floppy ears, blush-pink sweater),
+Bruno clearly BIGGER. Dark cozy kitchen at 2am with the mint-green retro fridge. IMPORTANT LIGHTING:
+the kitchen is dark, lit ONLY by the warm golden glow of the open fridge; keep both characters warmly
+and softly lit by the fridge glow, the rest in shadow, NOT brightly lit. 3D animated Pixar/chibi
+style, soft 3D render, glossy cute look, shallow depth of field, cute cinematic third-person framing
+showing both warmly. ONE smooth continuous 8-second action chain, natural motion, no snapping:
 0:24-0:26 — giving up the sneaking, Bruno and Poppy plop down together on the kitchen floor right in
 front of the open fridge, setting one shared bowl of snacks between them. Motion: both lower to
 sitting on the floor, the bowl set down between them.

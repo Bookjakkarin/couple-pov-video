@@ -71,6 +71,12 @@ Read the scene's motion prompt AND the scene before/after it. Hard-fail unless A
   the scene STARTS on and ENDS on. The entry state is consistent with the previous scene's exit (same
   location/pose/who's present, or a clean motivated cut); the exit sets up the next scene. Flag any
   seam where SCn ends somewhere SCn+1 can't plausibly begin from.
+- [ ] **Continuity tag + Extend wiring (playbook §C).** Each scene is tagged CUT or CONTINUOUS. For a
+  CONTINUOUS scene: it says to **attach the previous clip and use Extend**, its video prompt OPENS with
+  the "continues from the previous video" clause, and that opening text is the **verbatim** restatement
+  of the previous scene's EXIT (EXIT of SCn == opening of SCn+1 — compare the two word-for-word; flag
+  any mismatch). For a CUT scene: the boundary is a genuine location/time change and it does NOT
+  attach/extend the previous clip. Flag a CUT that should be CONTINUOUS (same place/time) or vice versa.
 - [ ] **One clean camera move per clip.** A single, smooth, motivated camera move (one push-in / one
   arc / one settle) — no multiple angles, no whip pans, no cuts inside one 8s clip. Multiple moves =
   jarring transitions.
@@ -90,18 +96,19 @@ Read the scene's motion prompt AND the scene before/after it. Hard-fail unless A
 - [ ] **Ingredients/character/wordless/style/no-music/Avoid** all per the universal checklist, and the
   ingredient images use a NEUTRAL resting expression (no baked-in tongue/expression).
 
-## Post-render review (once Book has generated clips)
-Reading the prompt is NOT enough — the first EP001 pass looked fine on paper and failed on screen.
-When clips exist, ACTUALLY watch them (extract frames with ffmpeg if you can't play them) and check
-the same gate against what's really on screen: lighting, presence logic, motion smoothness, prop
-consistency, reaction causality, scene links. Report what actually happened, not what the prompt
-intended.
+## Post-render review — handed off to the Reviewer
+The Director is the PRE-render gate (prompts). Once Book has generated clips, POST-render QA against
+the actual footage is the **Reviewer's** job (`agents/REVIEWER.md`) — it watches the clips (extract
+frames) and checks lighting, presence logic, motion, prop consistency, reaction causality, and
+boundary continuity vs what really rendered. Don't duplicate it here; make sure the prompts are clean
+so the Reviewer has less to catch.
 
-## Whole-episode continuity check (run once all scenes exist)
-Read SC01→last end-to-end as if watching: Does each scene connect to the previous in ACTION and in
+## Whole-episode continuity check (run once all scene prompts exist)
+Read SC01→last end-to-end as if watching: Does each scene connect to the previous in ACTION and
 EMOTION, or does it read as disconnected clips (ตัดแปะ)? Does the story make sense with no words? Does
 every laugh/reaction trace to a cause? Is anyone present/absent inconsistently (e.g. Poppy in a scene
-she shouldn't be)? Rewrite any jarring seam. This is a hard check.
+she shouldn't be)? For every CONTINUOUS boundary, confirm EXIT(SCn) and the opening of SCn+1 are the
+SAME text (one shared frame) and SCn+1 attaches the previous clip. Rewrite any jarring seam. Hard check.
 
 ## OUTPUT — the DIRECTOR CHECK block (append to Book's reply)
 ```

@@ -29,11 +29,21 @@ at once; load per phase.
 3. `README.md` — repo map + pipeline overview.
 4. An existing episode (e.g. `episodes/EP001_midnight-snack/`) — the reference for every phase's
    output format. Match it exactly.
-5. `agents/DIRECTOR.md` — the co-production director / QA gate you run on every phase before Book sees
-   it (story logic, motion smoothness, reaction causality, continuity + the channel's hard rules).
-6. `C:\Users\Administrator\Downloads\Claude\VIDEO_PLAYBOOK.md` — the SHARED cross-project Flow/Veo
+5. `agents/DIRECTOR.md` — the PRE-render QA gate you run on every phase before Book sees it (story
+   logic, motion smoothness, reaction causality, continuity + the channel's hard rules).
+6. `agents/REVIEWER.md` — the POST-render QA gate: after Book generates clips, it watches the actual
+   footage (extracts frames) and returns per-scene PASS / RE-ROLL. Director gates the prompt; Reviewer
+   gates the clip.
+7. `C:\Users\Administrator\Downloads\Claude\VIDEO_PLAYBOOK.md` — the SHARED cross-project Flow/Veo
    playbook (references/ingredients, lighting/relight, motion & story, prompt hygiene, QA, token-lean
    structure). Read it for all general lessons; this repo holds only couple-channel deltas.
+
+## Agent roles (3-role structure)
+- **Producer (you, this SKILL)** — orchestrate the pipeline, hold project state, write brief + prompts.
+- **Director (`agents/DIRECTOR.md`)** — PRE-render QA on prompts; run it (inline, or as an independent
+  subagent for the motion phase) before showing Book any phase output.
+- **Reviewer (`agents/REVIEWER.md`)** — POST-render QA on clips; spawn as an independent subagent once
+  Book has generated the clips, before CapCut.
 
 ## How you run (the interaction contract)
 Run **one phase at a time**. When Book says "run phase N" / "new episode about X" / "give me
@@ -59,14 +69,17 @@ themes":
 | 3 Location sheet | One image of the episode's key environments | `.../00b_location_sheet.md` |
 | 4 Storyboard prompts | 1×4 strip of 9:16 panels per scene, absolute timing | `.../01_photo_prompts.md` |
 | 5 Motion prompts | Veo prompts with sound direction embedded (no separate script) | `.../02_motion_prompts.md` |
+| 5b Post-render review | After Book generates clips: spawn the **Reviewer** (`agents/REVIEWER.md`) to watch the footage → per-scene PASS / RE-ROLL | `.../clips/` |
 | 6 CapCut assembly | Stitch order, one music bed, `POV:` headline, trim to 24-28s | checklist at the end of `02_motion_prompts.md` |
 
 ## Producing a new episode (the common command)
 When Book says "new episode about X" or "produce the next backlog theme":
 1. Assign the next `EP<nnn>` + a slug; create `episodes/EP<nnn>_<slug>/` (mirror EP001's file set).
-2. Run Phase 1 → 3 → 4 → 5 → 6, pausing for approval between each.
+2. Run Phase 1 → 3 → 4 → 5, pausing for approval between each.
 3. Skip Phase 2 unless a brand-new recurring character is needed. Reuse the existing character sheet.
-4. Update the theme's status in `docs/CONCEPT.md` §5.
+4. After Book renders the clips, run Phase 5b (Reviewer) before Phase 6 (CapCut); re-roll any scene
+   the Reviewer flags.
+5. Update the theme's status in `docs/CONCEPT.md` §5.
 
 ## Non-negotiables (this channel's identity)
 - **Wordless.** Characters emote ONLY through non-verbal sound (giggles, gasps, hums, sighs,
