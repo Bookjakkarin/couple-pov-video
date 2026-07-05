@@ -150,65 +150,22 @@ Restate positively in every scene prompt:
   locked-off camera, shaky cam, off-model characters, only one character visible when both should be`.
 
 ## 6b. Motion-writing standard (smooth motion + a story that reads with zero words)
-Book's recurring complaint about AI clips: strange/jerky motion, scenes that don't connect, and
-characters reacting/laughing with no on-screen cause. Every motion prompt MUST be written to prevent
-this (the Director gate, `agents/DIRECTOR.md`, enforces it):
-- **One continuous action chain per clip.** Describe the 8s as a single flowing sequence, beat by
-  beat, where each 2s beat physically follows from the one before — no character or prop snapping to a
-  new position. Say it's "one continuous shot".
-- **Concrete `Motion:` per beat.** Spell out the actual physical movement (which limb/body does what,
-  in what direction), never a vague verb like "he reacts" or "they interact" — vague verbs are what
-  produce strange motion.
-- **Cause → effect; every reaction is earned.** Each emotional beat (gasp, freeze, giggle, blush) has
-  an on-screen trigger in an EARLIER beat. **Never have a character laugh or react before they've
-  actually seen/engaged the other** — surprised DURING the reveal, giggling AFTER recognition. If you
-  write a laugh, you must be able to point to the beat that caused it.
-- **Explicit ENTRY and EXIT frame state, matched to neighbors.** State the frame the scene starts on
-  and ends on. The entry must be consistent with the previous scene's exit (same place/pose/who's
-  present, or a clean motivated cut); the exit sets up the next scene. This is what makes scenes
-  connect instead of reading as disconnected clips (ตัดแปะ).
-- **One clean camera move per clip.** A single smooth motivated move (one push-in / one arc / one
-  settle). No second angle, no cuts inside a clip, no whip pans — multiple moves = jarring transitions.
-- **Expression matches the beat's logic at that exact moment** — don't describe the payoff face
-  before the payoff.
-See EP001 `02_motion_prompts.md` SC01 as the worked example of this format.
+The full standard now lives once in **VIDEO_PLAYBOOK.md §C** (one continuous action chain, concrete
+per-beat `Motion:`, cause→effect reactions, explicit entry/exit states matched to neighbors, one clean
+camera move). It is what the Director gate (`agents/DIRECTOR.md`) enforces, and EP001
+`02_motion_prompts.md` SC01 is the worked example. This addresses Book's recurring complaint (jerky
+motion, disconnected scenes, unmotivated reactions).
 
-## 7. What carries over from the sibling projects (lessons already learned — don't re-discover)
-- **Veo/Flow is stateless** — restate character designs, style, and camera in EVERY prompt, EVERY
-  scene.
-- **Feed references the way Veo 3.1 actually reads them (real EP001 failure — the character wasn't
-  transferring).** Root cause: a reference image dropped into plain text-to-video is largely ignored,
-  AND a multi-panel sheet reads as a busy grid, not as one character. Fixes, now standard:
-  1. Use Flow's **"Ingredients to Video"** mode (Veo 3.1, Jan 2026) — up to 4 reference images per
-     generation, designed for identity/setting consistency.
-  2. Feed **clean SINGLE-subject images** as ingredients — one clear Bruno, one clear Poppy, one
-     still of the setting — NOT the multi-panel character/location sheets. Render the dedicated
-     ingredient images (`assets/characters/bruno-ingredient.jpg`, `poppy-ingredient.jpg`) once and
-     reuse them; for the setting, crop the matching single panel out of the location sheet or use the
-     scene's storyboard. (The multi-panel sheets stay useful for human review + for anchoring the
-     look when rendering storyboards in Imagen.)
-  3. In the prompt text, **name each provided image by role** ("the bear = Bruno", "the bunny =
-     Poppy", "the setting") and explicitly tell Veo to *replicate their exact appearance from the
-     reference images*. Still restate the full written description too — Veo leans on both.
-- **Negative prompt = technical/quality/style terms ONLY**, never content-safety category words as
-  exclusions. Naming danger/threat/scary/adult words in the `Avoid:` list gives no benefit and risks
-  tripping the platform's policy filter (confirmed on dog-pov-video EP001). Tone is controlled by
-  choosing wholesome content up front (§4) and describing it warmly — not by listing what to avoid.
-- **No stacked negation in the prompt body** ("Do NOT… This is NOT… NOT a…") — describe the shot
-  positively; put exclusions only as short noun phrases in the `Avoid:` list.
-- **No bracketed meta-instructions**, never write "don't render a watermark" as a sentence — put
-  "watermark" as a noun in the Avoid list instead.
-- **Style-tag sanity check every episode** — this channel is **3D Pixar/chibi, NON-photorealistic**.
-  Never let a "photorealistic / cinematic live-action / historical-epic" clause copy-paste in from
-  dog-pov-video, and never let a "no photorealism" clause meant for ปู่เล่า contradict… actually here
-  we DO want non-photorealistic, so the ปู่เล่า-style toon tag is compatible — but always confirm the
-  style line matches THIS channel's 3D-chibi look before rendering.
-- **Storyboards = a horizontal 1×N strip of true 9:16 panels, never a 2×2 grid.**
-- **Absolute panel timing across the whole video, never resets per scene.**
-- **Ground motion prompts in the ACTUAL rendered storyboard**, not just the original intent — adjust
-  the motion prompt to what the storyboard actually shows.
-- **Music once, globally, in CapCut** — never per Veo clip.
-- **Scene-ID labels, if wanted, as a plain unbracketed prefix only.**
+## 7. What carries over (general Flow/Veo lessons)
+> The general lessons — stateless restatement, Ingredients-to-Video with clean single refs, relight,
+> technical-only negatives, no stacked negation / no meta-instructions, storyboard strip format,
+> music-once-in-CapCut, watch-the-clips QA — now live once in **VIDEO_PLAYBOOK.md**
+> (`C:\Users\Administrator\Downloads\Claude\VIDEO_PLAYBOOK.md`, §A–§H). Read it; not duplicated here.
+> Couple-channel deltas only:
+- **Style:** this channel is **3D Pixar/chibi, NON-photorealistic** — never let a
+  photorealistic/live-action clause leak in from dog-pov-video.
+- **Wordless:** non-verbal character sounds only, never words (see §6a + playbook §F).
+- **Ingredient images are neutral** (closed mouth); expressions go in the motion prompt per beat.
 
 ## 7a. EP001 first-render post-mortem (watched the actual clips — do not repeat these)
 The first EP001 render failed on logic, staging, and lighting. Root causes + standing fixes:

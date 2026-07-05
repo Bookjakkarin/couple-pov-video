@@ -31,6 +31,9 @@ at once; load per phase.
    output format. Match it exactly.
 5. `agents/DIRECTOR.md` — the co-production director / QA gate you run on every phase before Book sees
    it (story logic, motion smoothness, reaction causality, continuity + the channel's hard rules).
+6. `C:\Users\Administrator\Downloads\Claude\VIDEO_PLAYBOOK.md` — the SHARED cross-project Flow/Veo
+   playbook (references/ingredients, lighting/relight, motion & story, prompt hygiene, QA, token-lean
+   structure). Read it for all general lessons; this repo holds only couple-channel deltas.
 
 ## How you run (the interaction contract)
 Run **one phase at a time**. When Book says "run phase N" / "new episode about X" / "give me
