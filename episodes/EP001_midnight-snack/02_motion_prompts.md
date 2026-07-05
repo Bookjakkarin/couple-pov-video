@@ -1,219 +1,227 @@
 # EP001 Motion Prompts (Veo) — Bruno & Poppy: Midnight Snack Raid
-> Cute cinematic third-person, 3D Pixar/chibi style (see CONCEPT.md §1/§6a). We clearly see both
-> characters and their faces — the comedy is in the expressions. Sound (diegetic + non-verbal
-> character sounds) is generated natively per clip; the characters NEVER speak words. NO music per
-> clip — add ONE music bed globally in CapCut. The `POV:` headline is added in CapCut, never baked
-> into the clip. Each scene is generated at ~8s; trim in CapCut to a snappy ~24-28s final.
+> Cute cinematic third-person, 3D Pixar/chibi (CONCEPT.md §1/§6a). Wordless — non-verbal character
+> sounds only, never words. NO music per clip (added once in CapCut). The `POV:` headline is added in
+> CapCut. Each scene ~8s; trim to ~24-28s final. Write motion per the §6b standard.
 >
-> **HOW TO FEED REFERENCES SO VEO ACTUALLY USES THEM (read this — it's why the character wasn't
-> matching):** In Google Flow, use **"Ingredients to Video"** mode and add the reference images as
-> separate *ingredients* — do NOT just drop the character sheet into a plain text-to-video box (that
-> mode largely ignores it). Feed **clean SINGLE-subject images**, not the multi-panel sheet: use the
-> two ingredient images from `assets/characters/` (Bruno alone, Poppy alone) plus one single still of
-> the scene's setting (crop the matching panel out of `location-sheet.jpg`, or use this scene's
-> rendered storyboard). Up to 4 ingredients per generation. Each prompt below already names the
-> images by role ("the bear = Bruno", "the bunny = Poppy", "the setting") and tells Veo to replicate
-> them — keep that wording. Also keep the full written character descriptions (Veo leans on the text
-> too). See CONCEPT.md §7 for the full workflow note.
+> **REFERENCES — use Flow "Ingredients to Video" mode** (not plain text-to-video). Feed clean SINGLE
+> images as ingredients, named by role in the prompt: Bruno = `bruno-ingredient.jpg`, Poppy =
+> `poppy-ingredient.jpg`, plus ONE consistent setting still. Re-render the ingredient images first —
+> they were updated to a neutral CLOSED-MOUTH expression (the old ones had a permanent tongue-out that
+> baked into every clip).
 >
-> Play the comedy BIG: Bruno is a goofy lovable doofus (cowlick tuft, tongue-out grin, round belly,
-> dramatic over-reactions); Poppy is the cheeky little troublemaker (buck teeth, cocked eyebrow,
-> super-expressive floppy ears, sly schemer energy). Keep faces and reactions exaggerated and funny.
+> **HARD LESSONS FROM THE FIRST RENDER (baked into every prompt below — see CONCEPT.md §7):**
+> - **It is 2am — DARK.** Only light = blue moonlight + the warm open-fridge glow. Characters are
+>   softly, dimly lit by that light, NOT brightly lit. Each prompt explicitly tells Veo to *relight the
+>   characters to match the dark night* (the reference images are bright, so Veo made day-bright clips).
+> - **One location per scene, joined by CUTS.** Never animate walking between rooms / through doorways
+>   (Veo invented self-opening doors and wrong geometry). No doors open on their own.
+> - **Pin the fridge:** a mint-green retro fridge, the SAME one every kitchen scene — feed the same
+>   kitchen still each time (SC02 and SC04 drifted to different fridges).
+> - **Presence logic:** Poppy is asleep in bed in SC01, ABSENT in SC02, ARRIVES in SC03.
+> - **Reactions only AFTER the trigger** — nobody laughs before Bruno and Poppy actually see each other.
+>
+> Play the comedy through expressions IN THE PROMPT (the ingredient images are now neutral): Bruno the
+> goofy doofus, Poppy the cheeky one. Keep faces readable and funny.
 
-## Scene SC01 (0:00-0:08) — Bruno wakes up hungry and sneaks toward the kitchen
-Ingredients (Ingredients to Video mode): (1) Bruno ingredient image (`assets/characters/bruno-ingredient.jpg`)
-= the big goofy caramel-brown bear. Poppy is NOT on screen this scene. Setting still: crop the
-"Cozy bedroom" panel from `location-sheet.jpg`.
-
-**Story logic (why each thing happens, so nothing looks random):** a hunger pang wakes Bruno → seeing
-the doorway, he decides to sneak a midnight snack → he climbs out carefully so he won't wake anyone →
-he tiptoes over and peeks toward the kitchen, poised to go. Each action is caused by the one before.
-
-**Continuity — ENTRY:** dim-but-legible bedroom, Bruno asleep on his back in bed (never open on pure
-black). **EXIT:** Bruno standing at the open bedroom doorway, leaning out and peeking down the dark
-hallway toward the kitchen — this hands directly to SC02 (he arrives in the kitchen).
+## Scene SC01 (0:00-0:08) — Both asleep; Bruno wakes hungry and sneaks out
+Ingredients: (1) Bruno = `bruno-ingredient.jpg`; (2) Poppy = `poppy-ingredient.jpg`; (3) a single
+still of the DARK cozy bedroom (crop the "Cozy bedroom" panel from `location-sheet.jpg`).
+**ENTRY:** dark bedroom, both asleep in one bed. **EXIT:** Bruno has tiptoed out of frame; Poppy still
+asleep alone in bed (hands to SC02, Bruno now in the kitchen — a cut).
 
 ### Video prompt (paste into Veo)
-Using the provided reference image to lock identity: the big goofy caramel-brown bear is BRUNO —
-replicate his exact appearance from the reference image in every frame (caramel-brown fur, springy
-cowlick tuft, big round googly eyes, chubby cheeks, tongue-out goofy grin, round belly, too-small
-forest-green hoodie, big-head chibi proportions). Place him in the cozy bedroom at night matching the
-provided bedroom reference. Create a single continuous 8-second shot in 3D animated Pixar/chibi style
-— soft 3D render, glossy cute look, warm cozy nighttime lighting with soft blue moonlight through the
-curtains and a tiny warm lamp glow on the nightstand, shallow depth of field, cute cinematic
-third-person framing that clearly reads Bruno's face. The whole clip is ONE smooth, continuous action
-chain — a hungry bear quietly getting up to raid the kitchen — with natural physical motion and no
-snapping or teleporting between poses:
-0:00-0:02 — Bruno lies on his back in the big soft bed, blanket up to his chest, fast asleep. His
-round belly gives a rumble and his nose twitches; his eyes blink slowly open and he stares upward,
-suddenly awake with a hungry thought. Motion: gentle breathing rise-and-fall, a small belly jiggle on
-the rumble, slow eyelids opening, a little head tilt as he wakes.
-0:02-0:04 — hungry and now decided, Bruno turns his head toward the bedroom doorway (his snack goal),
-then pushes the blanket down and off himself with both paws and begins to sit up. Beside him the other
-half of the bed is an empty rumpled dent, visible to us, but Bruno is fixated on food and doesn't
-notice it. Motion: head turns to look at the door, both arms push the blanket down toward his feet,
-torso curls up to sitting.
-0:04-0:06 — Bruno swings his legs over the edge of the bed and eases his big round body up to
-standing, in exaggerated slow "don't-wake-anyone" care, arms out for balance with a slight comedic
-wobble, one paw pressing his still-rumbling belly. Motion: legs swing off the bed and feet plant on
-the floor, weight shifts forward, he rises to full standing in one careful continuous motion, a small
-wobble as he steadies.
-0:06-0:08 — Bruno tiptoes across the bedroom on his toes to the doorway, then leans his head out
-around the door frame and peeks down the dark hallway toward the kitchen, eyes wide and hopeful, a
-happy hungry grin spreading; he holds there, poised to go. Motion: three or four exaggerated
-high-kneed careful tiptoe steps to the door, then a lean and head-turn out through the doorway,
-settling into an eager hold.
-Camera: ONE slow, smooth push-in across the entire clip — starting on a wide of Bruno in bed and
-ending on a medium of him peeking at the doorway. No cuts, no second angle, no whip pans, no jerky
-moves; the push-in settles gently on his hopeful face at the end (this framing hands off to SC02).
-Include natural synchronized sound effects matching the visuals: a low hungry tummy rumble around
-0:01, a soft blanket rustle as he pushes it off, a gentle bed creak as he rises, and careful padding
-tiptoe steps on the floor. Bruno expresses himself ONLY through non-verbal sounds — a soft sleepy
-grunt as he wakes and a tiny eager hopeful hum as he peeks — never words. NO spoken words, NO
-intelligible dialogue, NO narration, NO music or musical score in this clip — sound effects and
-wordless character sounds only, matched naturally to the motion on screen.
-Render the full 8 seconds as ONE continuous shot with a complete, settled ending — do not cut off
-early and do not add a second camera angle. Soft glossy 3D animated Pixar/chibi style, warm cozy
-nighttime lighting, no on-screen text, captions, subtitles, or watermark.
+Using the provided reference images to lock identity: the big goofy caramel-brown bear is BRUNO and
+the small cream-white bunny is POPPY — replicate their exact appearance from the reference images
+(Bruno: caramel-brown fur, cowlick tuft, round belly, too-small forest-green hoodie; Poppy:
+cream-white fur, small buck teeth, long floppy ears, blush-pink sweater), Bruno clearly BIGGER. This
+is a dark cozy bedroom at 2am, matching the provided bedroom reference. IMPORTANT LIGHTING: the room
+is dark and dim, lit ONLY by soft blue moonlight through the window; relight both characters to match
+this dark night — they are softly, dimly moonlit, NOT brightly lit. Create a single continuous
+8-second shot in 3D animated Pixar/chibi style, soft 3D render, glossy cute look, shallow depth of
+field, cute cinematic third-person framing. The whole clip is ONE smooth continuous action chain with
+natural motion and no snapping between poses:
+0:00-0:02 — Bruno and Poppy are asleep together under one blanket in the same bed, tiny Poppy curled
+against Bruno's side. Bruno's round belly gives a soft rumble and his eyes blink slowly open, awake
+with a hungry thought. Motion: both breathing gently, a small belly jiggle on the rumble, Bruno's
+eyelids slowly open.
+0:02-0:04 — moving carefully so he won't wake Poppy, Bruno gently lifts his big arm off her and eases
+his torso upright. Motion: his arm slowly lifts away from Poppy, his upper body curls up to sitting,
+Poppy stays asleep.
+0:04-0:06 — Bruno slides his legs off the bed to stand, then softly tucks the blanket back around the
+still-sleeping Poppy with both paws. Motion: legs swing off the bed and feet plant, he rises, paws
+pat the blanket gently around Poppy.
+0:06-0:08 — with one paw on his rumbling belly and a hopeful little grin, Bruno tiptoes away and out
+of frame to the side; Poppy sleeps on in the bed. Motion: two or three careful high-kneed tiptoe steps
+sideways, exiting the frame edge (no door shown).
+Camera: ONE slow gentle push-in toward the bed across the whole clip, settling on sleeping Poppy as
+Bruno slips out of frame. No cuts, no second angle, no whip pans.
+Include natural synchronized sound effects matching the visuals: Poppy's soft slow snoring, a low
+hungry tummy rumble around 0:01, a gentle blanket rustle. The characters make ONLY non-verbal sounds —
+a soft sleepy grunt from Bruno — never words. NO spoken words, NO dialogue, NO narration, NO music or
+score in this clip — sound effects and wordless sounds only.
+Render the full 8 seconds as ONE continuous shot with a settled ending — do not cut off early, do not
+add a second angle. Soft glossy 3D animated Pixar/chibi style, dark moonlit night, no on-screen text,
+captions, subtitles, or watermark.
 Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
-illustration, harsh flat lighting, static locked-off camera, shaky cam, fast cuts, multiple camera
-angles, teleporting between poses, snapping or jittery motion, morphing limbs, floating body,
-off-model character, inconsistent fur color, inconsistent outfit, extra limbs, deformed paws,
-distorted features, a second character in the bed, brand logos, brand packaging, readable labels,
-spoken words, dialogue, voice-over, background music, text, logo, watermark, blurry, low quality,
-busy cluttered background.
+illustration, bright daylight, brightly lit characters, harsh flat lighting, static locked-off camera,
+shaky cam, fast cuts, multiple camera angles, a door opening on its own, character walking through a
+doorway, teleporting between poses, snapping or jittery motion, morphing limbs, off-model characters,
+inconsistent fur color, only one character in the bed, extra limbs, deformed paws, distorted features,
+brand logos, readable labels, spoken words, dialogue, voice-over, background music, text, logo,
+watermark, blurry, low quality, busy cluttered background.
 → clip: clips/EP001_SC01.mp4
 
 ---
 
-## Scene SC02 (0:08-0:16) — Two sneaks converge on the kitchen
-Ingredients (Ingredients to Video mode): (1) Bruno ingredient image (`assets/characters/bruno-ingredient.jpg`);
-(2) Poppy ingredient image (`assets/characters/poppy-ingredient.jpg`); (3) a single still of the
-night kitchen (crop the "Kitchen at night, lights off" panel from `location-sheet.jpg`).
+## Scene SC02 (0:08-0:16) — Bruno raids the fridge (alone)
+Ingredients: (1) Bruno = `bruno-ingredient.jpg`; (2) a single still of the DARK night kitchen with
+the mint-green retro fridge (crop the fridge/kitchen panel from `location-sheet.jpg` — use this SAME
+still in SC03 and SC04). Poppy is NOT on screen.
+**ENTRY:** dark kitchen, fridge closed. **EXIT:** Bruno standing at the OPEN mint-green fridge with a
+snack in paw (hands directly to SC03, where Poppy arrives behind him).
 
 ### Video prompt (paste into Veo)
-Using the provided reference images to lock identity and setting: the big goofy caramel-brown bear is
-BRUNO and the small cheeky cream-white bunny is POPPY — replicate their exact appearance from the
-reference images in every frame (Bruno: caramel-brown fur, cowlick tuft, googly eyes, tongue-out
-grin, round belly, too-small forest-green hoodie; Poppy: cream-white fur, two funny buck teeth, one
-cocked eyebrow, sly grin, long floppy ears, blush-pink sweater), and keep Bruno clearly BIGGER than
-Poppy. Place them in the cute cozy night kitchen matching the provided kitchen reference. Create an
-8-second video in 3D animated Pixar/chibi style — soft 3D render, glossy cute look, warm cozy
-nighttime lighting, soft blue moonlight through the window. The two sneaks unknowingly converge on
-the fridge: from behind, Poppy is already standing at the closed fridge; Bruno tiptoes in from the
-opposite hallway doorway, focused only on the fridge, not noticing her; both reach toward the fridge
-handle from their two sides in a comic near-miss, paws almost meeting, still oblivious. Cute cinematic
-third-person framing.
-Camera: gentle third-person, a slow arc that reveals Poppy already there, then holds a wider two-shot
-so we see both reaching without noticing each other. 0:08-0:10: Poppy's small back at the fridge,
-unnoticed. 0:10-0:12: Bruno tiptoeing in from the other side. 0:12-0:14: both reaching for the handle
-from their two sides, near-miss. 0:14-0:16: their paws almost touching on the handle, anticipation.
-Include natural synchronized sound effects matching the visuals: quiet tiptoeing footsteps, a soft
-steady fridge hum, a faint handle click. The characters express themselves ONLY through non-verbal
-sounds — soft focused breaths, a tiny anticipatory hum — never words. NO spoken words, NO intelligible
-dialogue, NO narration, NO music or musical score in this clip — sound effects and wordless character
-sounds only, matched naturally to the motion on screen.
-Render the full 8 seconds with a complete ending — do not cut off early. Soft glossy 3D animated
-Pixar/chibi style, warm cozy nighttime lighting, no on-screen text, captions, subtitles, or
-watermark.
+Using the provided reference image to lock identity: the big goofy caramel-brown bear is BRUNO —
+replicate his exact appearance from the reference image (caramel-brown fur, cowlick tuft, round belly,
+too-small forest-green hoodie, big-head chibi proportions). This is a dark cozy kitchen at 2am with a
+mint-green retro fridge, matching the provided kitchen reference. IMPORTANT LIGHTING: the kitchen is
+dark, lit ONLY by faint blue moonlight — then by the warm golden glow of the fridge once it opens;
+relight Bruno to match — he is dim/moonlit at first, then warmly lit by the fridge glow, NOT brightly
+lit, with the rest of the kitchen in soft shadow. Create a single continuous 8-second shot in 3D
+animated Pixar/chibi style, soft 3D render, glossy cute look, shallow depth of field, cute cinematic
+third-person framing. ONE smooth continuous action chain, natural motion, no snapping:
+0:08-0:10 — Bruno tiptoes across the dark kitchen toward the closed mint-green fridge, one paw on his
+belly, eager. Motion: careful high-kneed tiptoe steps toward the fridge.
+0:10-0:12 — he grips the handle and gently pulls the fridge open; warm golden light spills out across
+his happy face and the dark kitchen. Motion: paw closes on handle, door swings open, light spreads
+over him.
+0:12-0:14 — Bruno leans into the fridge and peers over the shelves, eyes lighting up as he hunts for a
+snack. Motion: he leans forward into the glow, head scanning the shelves, a paw reaching in.
+0:14-0:16 — he pulls out a snack (a cookie), straightens up and holds it, pleased with himself, a
+happy little hum. Motion: paw withdraws holding the snack, he stands up, content grin.
+Camera: ONE slow gentle push-in toward Bruno at the fridge across the whole clip. No cuts, no second
+angle.
+Include natural synchronized sound effects matching the visuals: quiet padding tiptoe steps, the soft
+rubber-seal pop of the fridge door, a faint fridge hum, a happy little hum from Bruno. ONLY non-verbal
+sounds — never words. NO spoken words, NO dialogue, NO narration, NO music or score — sound effects
+and wordless sounds only.
+Render the full 8 seconds as ONE continuous shot with a settled ending — do not cut off early, do not
+add a second angle. Soft glossy 3D animated Pixar/chibi style, dark kitchen lit by moonlight and warm
+fridge glow, no on-screen text, captions, subtitles, or watermark.
 Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
-illustration, harsh flat lighting, static locked-off camera, shaky cam, off-model characters,
-inconsistent fur color, inconsistent outfits, Bruno and Poppy the same size, extra limbs, deformed
-paws, distorted features, brand logos, brand packaging, readable labels, extra characters, spoken
-words, dialogue, voice-over, background music, text, logo, watermark, blurry, low quality, busy
-cluttered background.
+illustration, bright daylight, daytime kitchen, brightly lit kitchen, brightly lit character, harsh
+flat lighting, static locked-off camera, shaky cam, fast cuts, multiple camera angles, a door opening
+on its own, fridge sliding or moving on its own, teleporting between poses, snapping or jittery
+motion, morphing limbs, off-model character, inconsistent fur color, a second character, extra limbs,
+deformed paws, distorted features, brand logos, readable labels, spoken words, dialogue, voice-over,
+background music, text, logo, watermark, blurry, low quality, busy cluttered background.
 → clip: clips/EP001_SC02.mp4
 
 ---
 
-## Scene SC03 (0:16-0:24) — Caught at the fridge (the punchline)
-Ingredients (Ingredients to Video mode): (1) Bruno ingredient image (`assets/characters/bruno-ingredient.jpg`);
-(2) Poppy ingredient image (`assets/characters/poppy-ingredient.jpg`); (3) a single still of the
-glowing open fridge (crop the "The glowing fridge" panel from `location-sheet.jpg`).
+## Scene SC03 (0:16-0:24) — Poppy pads in; they find each other (the happy surprise)
+Ingredients: (1) Bruno = `bruno-ingredient.jpg`; (2) Poppy = `poppy-ingredient.jpg`; (3) the SAME
+dark kitchen / mint-green fridge still used in SC02.
+**ENTRY:** matches SC02 exit — Bruno at the open fridge with a snack. **EXIT:** the two share a warm
+giggle facing each other (hands to SC04, they sit down to share).
+> Policy note: keep this a warm HAPPY SURPRISE between the couple. Do NOT use "caught red-handed /
+> guilty / freeze / busted" framing — that tripped Flow's filter on the first attempt.
 
 ### Video prompt (paste into Veo)
-Using the provided reference images to lock identity and setting: the big goofy caramel-brown bear is
-BRUNO and the small cheeky cream-white bunny is POPPY — replicate their exact appearance from the
-reference images in every frame (Bruno: caramel-brown fur, cowlick tuft, googly eyes, tongue-out
-grin, round belly, too-small forest-green hoodie; Poppy: cream-white fur, buck teeth, cocked eyebrow,
-sly grin, floppy ears, blush-pink sweater), Bruno clearly BIGGER than Poppy. The setting is the cozy
-dark kitchen with the fridge, matching the provided fridge reference. Create an 8-second video in 3D
-animated Pixar/chibi style — soft 3D render, glossy cute look. The fridge door swings open and warm
-golden light floods out into the dark kitchen, lighting both faces, revealing Bruno and Poppy
-face-to-face on either side of the open door, each mid-reach for the same snack. Both FREEZE with big
-wide-eyed caught-in-the-act expressions (Bruno's jaw drops in over-dramatic shock, Poppy's eyes go
-bug-wide), then share a beat of sheepish recognition with small guilty smiles, and burst into muffled
-giggles with paws over their mouths, delighted at catching each other. Cute cinematic third-person
-framing that clearly shows both faces and reactions.
-Camera: gentle third-person; the fridge door opening reveals the two-shot, then a slow push-in that
-holds on both surprised faces for the freeze, then eases back for the giggle. 0:16-0:18: the door
-opens, warm light out, the two revealed mid-reach. 0:18-0:20: both freeze wide-eyed, caught. 0:20-0:22:
-sheepish recognition, small guilty smiles. 0:22-0:24: bursting into muffled giggles, paws over
-mouths.
-Include natural synchronized sound effects matching the visuals: a fridge door thunk and rubber-seal
-suction, a soft clink of the snack. The characters express themselves ONLY through non-verbal sounds —
-a shared sharp surprised gasp on the freeze, then muffled two-character giggling — never words. NO
-spoken words, NO intelligible dialogue, NO narration, NO music or musical score in this clip — sound
-effects and wordless character sounds only, matched naturally to the motion on screen.
-Render the full 8 seconds with a complete ending — do not cut off early. Soft glossy 3D animated
-Pixar/chibi style, warm golden fridge glow in a cozy dark kitchen, no on-screen text, captions,
-subtitles, or watermark.
+Using the provided reference images to lock identity: the big goofy caramel-brown bear is BRUNO and
+the small cream-white bunny is POPPY — replicate their exact appearance from the reference images
+(Bruno: caramel-brown fur, cowlick tuft, round belly, forest-green hoodie; Poppy: cream-white fur,
+small buck teeth, long floppy ears, blush-pink sweater), Bruno clearly BIGGER. Dark cozy kitchen at
+2am with the mint-green retro fridge, matching the provided kitchen reference. IMPORTANT LIGHTING: the
+kitchen is dark, lit ONLY by the warm golden glow of the open fridge; relight both characters to match
+— warmly but softly lit by the fridge glow, the rest of the kitchen in shadow, NOT brightly lit.
+Create a single continuous 8-second shot in 3D animated Pixar/chibi style, soft 3D render, glossy cute
+look, shallow depth of field, cute cinematic third-person framing that clearly reads both faces. ONE
+smooth continuous action chain — a happy little surprise between two sleepy sweethearts — with natural
+motion, no snapping:
+0:16-0:18 — Bruno stands at the open fridge in the warm glow, happily taking a bite of his snack.
+Behind him in the dark, small sleepy Poppy pads into the kitchen, rubbing one eye with a paw. Motion:
+Bruno chewing contentedly; Poppy shuffles slowly in from the background, rubbing her eye.
+0:18-0:20 — Poppy stops as she notices Bruno at the fridge; her long ears perk straight up and her
+eyes open wide with surprise. Motion: Poppy halts, ears spring upright, eyes widen.
+0:20-0:22 — sensing her, Bruno turns toward Poppy, and the two see each other — both go still with a
+big wide-eyed surprised look as they realize the other also snuck out for a snack. Motion: Bruno turns
+his head and body toward her, both hold still, eyebrows raised, eyes wide.
+0:22-0:24 — the surprise melts into delight: both break into a warm giggly grin, Poppy lifting a paw
+to her mouth, Bruno's round belly shaking with a happy chuckle. Motion: their faces shift from
+surprise into big smiles, shoulders and belly bouncing with laughter.
+Camera: ONE slow gentle push-in ending on the two of them sharing the look and the giggle. No cuts, no
+second angle.
+Include natural synchronized sound effects matching the visuals: soft munching, Poppy's quiet padding
+footsteps, a small shared surprised gasp at the moment they see each other, then gentle warm
+two-character giggling. ONLY non-verbal sounds — never words. NO spoken words, NO dialogue, NO
+narration, NO music or score — sound effects and wordless sounds only.
+Render the full 8 seconds as ONE continuous shot with a settled ending — do not cut off early, do not
+add a second angle. Soft glossy 3D animated Pixar/chibi style, dark kitchen lit by the warm fridge
+glow, no on-screen text, captions, subtitles, or watermark.
 Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
-illustration, harsh flat lighting, static locked-off camera, shaky cam, off-model characters,
-inconsistent fur color, inconsistent outfits, Bruno and Poppy the same size, extra limbs, deformed
-paws, distorted features, brand logos, brand packaging, readable labels, extra characters, spoken
-words, dialogue, voice-over, background music, text, logo, watermark, blurry, low quality, busy
-cluttered background.
+illustration, bright daylight, daytime kitchen, brightly lit kitchen, brightly lit characters, harsh
+flat lighting, static locked-off camera, shaky cam, fast cuts, multiple camera angles, fridge moving
+on its own, characters reacting before they see each other, teleporting between poses, snapping or
+jittery motion, morphing limbs, off-model characters, inconsistent fur color, extra limbs, deformed
+paws, distorted features, brand logos, readable labels, spoken words, dialogue, voice-over, background
+music, text, logo, watermark, blurry, low quality, busy cluttered background.
 → clip: clips/EP001_SC03.mp4
 
 ---
 
 ## Scene SC04 (0:24-0:32) — Sharing the snack on the floor (the heart)
-Ingredients (Ingredients to Video mode): (1) Bruno ingredient image (`assets/characters/bruno-ingredient.jpg`);
-(2) Poppy ingredient image (`assets/characters/poppy-ingredient.jpg`); (3) a single still of the
-kitchen floor nook / glowing fridge (crop the "Kitchen floor nook" or "The glowing fridge" panel from
-`location-sheet.jpg`).
+Ingredients: (1) Bruno = `bruno-ingredient.jpg`; (2) Poppy = `poppy-ingredient.jpg`; (3) the SAME
+dark kitchen / mint-green fridge still used in SC02/SC03.
+**ENTRY:** matches SC03 exit — the two standing together at the open fridge, just shared a giggle.
+**EXIT:** the cozy cuddle button (the SC04 test render already nailed this look — keep it).
 
 ### Video prompt (paste into Veo)
-Using the provided reference images to lock identity and setting: the big goofy caramel-brown bear is
-BRUNO and the small cheeky cream-white bunny is POPPY — replicate their exact appearance from the
-reference images in every frame (Bruno: caramel-brown fur, cowlick tuft, googly eyes, tongue-out
-grin, round belly, too-small forest-green hoodie; Poppy: cream-white fur, buck teeth, cocked eyebrow,
-sly grin, floppy ears, blush-pink sweater), Bruno clearly BIGGER than Poppy. The setting is the cozy
-kitchen floor beside the open fridge, matching the provided reference. Create an 8-second video in 3D
-animated Pixar/chibi style — soft 3D render, glossy cute look, warm cozy nighttime lighting. Giving
-up the pretense, Bruno and Poppy plop down together on the cozy kitchen floor in the warm golden glow
-of the open fridge, sharing one bowl of snacks between them. They munch happily from the same bowl;
-Poppy leans her head against Bruno's big belly/shoulder; Bruno goofily offers her the last snack;
-they settle into a warm content two-shot leaning together. Cute cinematic third-person framing showing
-both characters warmly.
-Camera: gentle third-person, a soft slow settle into a cozy two-shot, easing to near-stillness on the
-final warm beat. 0:24-0:26: the two plopping down together with the shared bowl. 0:26-0:28: both
-munching happily, content. 0:28-0:30: Poppy leaning on Bruno, Bruno offering the last snack. 0:30-0:32:
-warm content two-shot leaning together in the fridge glow — the cozy button.
+Using the provided reference images to lock identity: the big goofy caramel-brown bear is BRUNO and
+the small cream-white bunny is POPPY — replicate their exact appearance from the reference images
+(Bruno: caramel-brown fur, cowlick tuft, round belly, forest-green hoodie; Poppy: cream-white fur,
+small buck teeth, long floppy ears, blush-pink sweater), Bruno clearly BIGGER. Dark cozy kitchen at
+2am with the mint-green retro fridge, matching the provided kitchen reference. IMPORTANT LIGHTING: the
+kitchen is dark, lit ONLY by the warm golden glow of the open fridge; relight both characters to match
+— warmly and softly lit by the fridge glow, the rest in shadow, NOT brightly lit. Create a single
+continuous 8-second shot in 3D animated Pixar/chibi style, soft 3D render, glossy cute look, shallow
+depth of field, cute cinematic third-person framing showing both warmly. ONE smooth continuous action
+chain, natural motion, no snapping:
+0:24-0:26 — giving up the sneaking, Bruno and Poppy plop down together on the kitchen floor right in
+front of the open fridge, setting one shared bowl of snacks between them. Motion: both lower to
+sitting on the floor, the bowl set down between them.
+0:26-0:28 — they munch happily from the same bowl, content and relaxed. Motion: paws take snacks from
+the bowl, both eating, easy smiles.
+0:28-0:30 — Poppy leans her head cozily against Bruno's soft side; Bruno offers her the next snack.
+Motion: Poppy tips her head onto his side, Bruno's paw holds out a snack to her.
+0:30-0:32 — they settle together, eyes drifting contentedly closed, leaning into each other in the
+warm glow — the cozy button. Motion: both go still, leaning together, eyes gently close.
+Camera: ONE slow gentle settle (a soft push-in easing to stillness) ending on the cuddle. No cuts, no
+second angle.
 Include natural synchronized sound effects matching the visuals: a soft snack-bag crinkle, gentle
-happy munching and crunching, a quiet fridge hum. The characters express themselves ONLY through
-non-verbal sounds — contented sighs, soft happy hums, one gentle giggle — never words. NO spoken
-words, NO intelligible dialogue, NO narration, NO music or musical score in this clip — sound effects
-and wordless character sounds only, matched naturally to the motion on screen.
-Render the full 8 seconds with a complete ending — do not cut off early. Soft glossy 3D animated
-Pixar/chibi style, warm cozy golden nighttime glow, no on-screen text, captions, subtitles, or
-watermark.
+happy munching, a quiet fridge hum, contented sighs and one soft giggle. ONLY non-verbal sounds —
+never words. NO spoken words, NO dialogue, NO narration, NO music or score — sound effects and
+wordless sounds only.
+Render the full 8 seconds as ONE continuous shot with a settled ending — do not cut off early, do not
+add a second angle. Soft glossy 3D animated Pixar/chibi style, dark kitchen lit by the warm fridge
+glow, no on-screen text, captions, subtitles, or watermark.
 Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
-illustration, harsh flat lighting, static locked-off camera, shaky cam, off-model characters,
-inconsistent fur color, inconsistent outfits, Bruno and Poppy the same size, extra limbs, deformed
-paws, distorted features, brand logos, brand packaging, readable labels, extra characters, spoken
-words, dialogue, voice-over, background music, text, logo, watermark, blurry, low quality, busy
-cluttered background.
+illustration, bright daylight, daytime kitchen, brightly lit kitchen, brightly lit characters, harsh
+flat lighting, static locked-off camera, shaky cam, fast cuts, multiple camera angles, fridge moving
+on its own, teleporting between poses, snapping or jittery motion, morphing limbs, off-model
+characters, inconsistent fur color, a different fridge than the other scenes, extra limbs, deformed
+paws, distorted features, brand logos, readable labels, spoken words, dialogue, voice-over, background
+music, text, logo, watermark, blurry, low quality, busy cluttered background.
 → clip: clips/EP001_SC04.mp4
 
 ---
 
 ## CapCut assembly checklist
-- Stitch SC01 → SC02 → SC03 → SC04 in order; trim slow frames so the final lands ~24-28s (keep the
-  SC03 freeze long enough to read the "caught!" faces, then cut fast to the giggle).
-- Add ONE continuous music bed across the whole video (soft, cute, playful-cozy) — never per clip.
-- Add the `POV:` headline text near the top: `POV: it's 2am and you both had the same idea`.
-- Keep the non-verbal character sounds from the clips audible under the music (giggles/gasps/munching
-  are the comedy) — duck the music slightly during the SC03 gasp + giggle.
-- Export vertical 9:16 for Shorts/Reels/TikTok.
+- Stitch SC01 → SC02 → SC03 → SC04; trim slow frames to ~24-28s. Hold the SC03 surprise+giggle long
+  enough to read both faces, then cut to SC04.
+- ONE continuous cute/cozy music bed across the whole video (never per clip).
+- Add the `POV:` headline near the top: `POV: it's 2am and you both had the same idea`.
+- Keep the non-verbal sounds (gasp, giggles, munching) audible under the music; duck music slightly at
+  the SC03 surprise.
+- The Veo "sparkle" watermark sits bottom-right — nudge/scale slightly or place a sticker/caption over
+  that corner if you want it hidden. Export vertical 9:16.

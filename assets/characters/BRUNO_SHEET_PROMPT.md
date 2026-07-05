@@ -52,16 +52,19 @@ Save as: `bruno-sheet.jpg` (in this folder)
 **IMAGE PROMPT:**
 ```
 A single 3D animated Pixar/chibi character, full body, centered on a clean plain light-grey studio
-background, soft even studio lighting, glossy cute look, high-quality 3D render. The character is
+background, soft neutral even lighting, glossy cute look, high-quality 3D render. The character is
 BRUNO: a big chunky goofy bear boyfriend with big-head chibi proportions and a comically round soft
 belly, soft warm caramel-brown fur with a slightly lighter muzzle and belly, tiny round ears on his
 big head, a springy cowlick tuft of fur sticking up on top, a little dark-brown nose, big round
-googly expressive eyes, chubby cheeks, and a goofy lovable open grin with the tip of his tongue
-poking out. He wears a cozy oversized forest-green hoodie that is a size too small so his round belly
-peeks out at the bottom. Friendly, silly, over-eager pose, facing forward, whole body clearly visible.
+friendly eyes, chubby cheeks, and a relaxed gentle CLOSED-MOUTH smile — mouth closed, no tongue
+showing, a neutral resting expression so it can animate to any emotion later. He wears a cozy
+oversized forest-green hoodie that is a size too small so his round belly peeks out at the bottom.
+Standing in a simple relaxed neutral pose, facing forward, arms at his sides, whole body clearly
+visible.
 Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
-illustration, multiple characters, panels, grid, split image, harsh flat lighting, extra limbs,
-deformed paws, distorted features, busy background, props, text, logo, watermark, blurry, low quality.
+illustration, multiple characters, panels, grid, split image, harsh flat lighting, tongue sticking
+out, open mouth, wide crazy eyes, exaggerated expression, extra limbs, deformed paws, distorted
+features, busy background, props, text, logo, watermark, blurry, low quality.
 ```
 Save as: `bruno-ingredient.jpg` (in this folder)
 

@@ -209,3 +209,32 @@ See EP001 `02_motion_prompts.md` SC01 as the worked example of this format.
   the motion prompt to what the storyboard actually shows.
 - **Music once, globally, in CapCut** — never per Veo clip.
 - **Scene-ID labels, if wanted, as a plain unbracketed prefix only.**
+
+## 7a. EP001 first-render post-mortem (watched the actual clips — do not repeat these)
+The first EP001 render failed on logic, staging, and lighting. Root causes + standing fixes:
+- **Story must obey common sense / character relationships.** The couple SHARES A BED, so they can't
+  both "independently already be" somewhere — one leaves first, the other follows. Before writing any
+  episode, sanity-check: who is where, who's present, and does each entrance/exit make physical sense?
+  A character appearing or reacting with no cause is the #1 thing to catch (Director Motion gate).
+- **Reference images are bright (neutral studio) and Veo carries that lighting into the scene** — the
+  first render made a pitch-black-2am scene look like daytime. FIX: state the darkness hard AND
+  explicitly tell Veo to *relight the characters to match the dark night* (dim/moonlit, warm fridge
+  glow, "NOT brightly lit"). Name the single light source.
+- **Whatever expression is baked into the ingredient image becomes permanent** — the old Bruno
+  ingredient had a tongue-out grin, so he slept and sneaked with his tongue out. FIX: ingredient
+  images use a NEUTRAL closed-mouth resting expression; put the actual expressions in the motion
+  prompt per beat.
+- **Don't animate room-to-room travel / doorways** — Veo invented a self-opening door and a kitchen
+  fused to the bedroom, and sent the character the wrong way. FIX: one location per scene, joined by
+  CUTS; keep entrances/exits to "tiptoes out of frame". Add "door opening on its own", "walking
+  through a doorway" to Avoid.
+- **Pin recurring props with the SAME single still every scene** — the fridge was white in SC02 and
+  mint-green in SC04. FIX: decide the prop once (mint-green retro fridge) and feed the identical
+  kitchen/fridge still as an ingredient in every scene that shows it; add "a different fridge than the
+  other scenes" to Avoid.
+- **Spatial directions drift** — Veo doesn't reliably honor "toward the door on the left". Keep
+  staging simple and camera-relative (toward/away from camera), and lean on the setting still.
+- **The Veo "sparkle" watermark** sits bottom-right on outputs — can't be removed by prompt; cover or
+  nudge it in CapCut. Never name it in the prompt (bracketed meta-instruction rule).
+- **Actually watch the rendered clips** (extract frames if needed) before declaring a scene done —
+  reading the prompt is not enough; the first pass "passed" on paper and failed on screen.

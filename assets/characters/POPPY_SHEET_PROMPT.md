@@ -51,16 +51,17 @@ Save as: `poppy-sheet.jpg` (in this folder)
 **IMAGE PROMPT:**
 ```
 A single 3D animated Pixar/chibi character, full body, centered on a clean plain light-grey studio
-background, soft even studio lighting, glossy cute look, high-quality 3D render. The character is
+background, soft neutral even lighting, glossy cute look, high-quality 3D render. The character is
 POPPY: a small springy cheeky bunny girlfriend with big-head chibi proportions, soft cream-white fur,
-pale-pink inner ears, a tiny pink nose, rosy cheeks, big sparkly scheming eyes, one eyebrow cocked in
-a mischievous "up to something" look, two prominent funny buck teeth in a cheeky sly grin, and
-super-expressive long floppy ears (one with a little kink). She wears an oversized blush-pink sweater
-and a small scrunchie on one ear. Springy, mischievous, leaning-in pose, facing forward, whole body
-clearly visible.
+pale-pink inner ears, a tiny pink nose, rosy cheeks, big sparkly friendly eyes, two small front buck
+teeth just visible in a gentle CLOSED-MOUTH smile — a neutral resting expression so it can animate to
+any emotion later — and long floppy ears (one with a little kink). She wears an oversized blush-pink
+sweater and a small scrunchie on one ear. Standing in a simple relaxed neutral pose, facing forward,
+arms at her sides, whole body clearly visible.
 Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
-illustration, multiple characters, panels, grid, split image, harsh flat lighting, extra limbs,
-deformed paws, distorted features, busy background, props, text, logo, watermark, blurry, low quality.
+illustration, multiple characters, panels, grid, split image, harsh flat lighting, cocked eyebrow,
+open mouth, exaggerated expression, extra limbs, deformed paws, distorted features, busy background,
+props, text, logo, watermark, blurry, low quality.
 ```
 Save as: `poppy-ingredient.jpg` (in this folder)
 

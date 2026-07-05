@@ -76,7 +76,26 @@ Read the scene's motion prompt AND the scene before/after it. Hard-fail unless A
   jarring transitions.
 - [ ] **Expression timing is right.** The described face matches the beat's emotional logic at that
   moment (surprised DURING the reveal, giggling AFTER recognition — not before).
-- [ ] **Ingredients/character/wordless/style/no-music/Avoid** all per the universal checklist.
+- [ ] **Presence / relationship logic (common sense).** Who is on screen and where makes physical
+  sense given the story and that Bruno & Poppy are a couple (they share a bed, etc.). No character
+  appears somewhere they couldn't have gotten to, and each entrance/exit is motivated.
+- [ ] **Dark-scene lighting + relight instruction.** If it's night, the prompt states the darkness
+  AND explicitly tells Veo to relight the characters to match (dim/moonlit or warm-glow, "not brightly
+  lit"), naming the single light source — otherwise the bright reference images make a day-bright clip.
+- [ ] **Recurring props pinned.** Any prop that appears across scenes (the fridge) is described
+  identically and uses the same setting still every scene; "a different <prop> than other scenes" is
+  in Avoid.
+- [ ] **No room-to-room travel.** One location per scene, joined by cuts; no animated doorways/
+  hallways ("door opening on its own", "walking through a doorway" in Avoid).
+- [ ] **Ingredients/character/wordless/style/no-music/Avoid** all per the universal checklist, and the
+  ingredient images use a NEUTRAL resting expression (no baked-in tongue/expression).
+
+## Post-render review (once Book has generated clips)
+Reading the prompt is NOT enough — the first EP001 pass looked fine on paper and failed on screen.
+When clips exist, ACTUALLY watch them (extract frames with ffmpeg if you can't play them) and check
+the same gate against what's really on screen: lighting, presence logic, motion smoothness, prop
+consistency, reaction causality, scene links. Report what actually happened, not what the prompt
+intended.
 
 ## Whole-episode continuity check (run once all scenes exist)
 Read SC01→last end-to-end as if watching: Does each scene connect to the previous in ACTION and in

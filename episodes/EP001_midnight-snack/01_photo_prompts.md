@@ -1,4 +1,9 @@
 # EP001 Photo Prompts (Storyboard Panels) — Bruno & Poppy: Midnight Snack Raid
+> ⚠️ OUT OF DATE — the story was revised after the first render (see `00_brief.md` + `02_motion_prompts.md`).
+> The scene descriptions below still reflect the OLD story (empty-bed / "caught at the fridge") and
+> should NOT be used as-is. We're currently generating video directly via Flow "Ingredients to Video"
+> (no storyboard step). Re-sync these panels to the new story only if we decide to render storyboards.
+>
 > Horizontal strip of 4 panels per scene, each a true 9:16 vertical rectangle, each panel = 2s
 > (4 × 2s = 8s per scene). 3D Pixar/chibi style throughout — when rendering these storyboards in
 > Imagen, attach the per-character design sheets (`assets/characters/bruno-sheet.jpg`,

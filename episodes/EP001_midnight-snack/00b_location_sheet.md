@@ -13,15 +13,17 @@ cozy shapes, glossy cute look, warm and gentle nighttime lighting with soft moon
 practical lights, shallow depth of field, high-quality 3D animation render. All five panels are
 empty establishing environments (no characters) of the SAME warm, cozy little apartment at night,
 for use as backgrounds, with consistent warm color grading across all panels:
-- Panel 1 [Cozy bedroom]: a small warm bedroom at night with a big soft bed and plump blanket, a
-  nightstand with a tiny warm lamp glow, soft blue moonlight through the curtains — snug and inviting.
+- Panel 1 [Cozy bedroom]: a small warm bedroom at night with a big soft DOUBLE bed (for a couple) and
+  a plump blanket, a nightstand with a tiny warm lamp, soft blue moonlight through the curtains —
+  snug and inviting, dim night lighting.
 - Panel 2 [Hallway at night]: a short cozy hallway from the bedroom toward the kitchen, dim and warm,
   a picture frame or two on the wall, soft moonlight pooling on the floor.
-- Panel 3 [Kitchen at night, lights off]: a cute cozy kitchen at night with counters, cabinets, and
-  a fridge, lit only by soft blue moonlight through the window — calm and warm, not scary.
-- Panel 4 [The glowing fridge]: the same kitchen fridge with its door open, warm golden light
-  spilling out into the dark kitchen, shelves of simple generic unbranded food and snacks inside —
-  the hero light source of the episode.
+- Panel 3 [Kitchen at night, lights off]: a cute cozy kitchen at night with counters, cabinets, and a
+  MINT-GREEN RETRO FRIDGE, lit only by soft blue moonlight through the window — dark, calm and cozy
+  (not scary), the ceiling lights OFF.
+- Panel 4 [The glowing fridge]: the same MINT-GREEN RETRO FRIDGE with its door open, warm golden
+  light spilling out into the dark kitchen, shelves of simple generic unbranded food and snacks
+  inside — the hero light source of the episode.
 - Panel 5 [Kitchen floor nook]: a cozy warm spot on the kitchen floor beside the fridge/counter, a
   small rug, warm inviting light — the place the couple sits to share the snack.
 Consistent apartment layout, furniture style, and warm cozy color grading across all 5 panels —
