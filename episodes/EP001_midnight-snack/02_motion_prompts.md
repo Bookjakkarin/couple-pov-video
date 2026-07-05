@@ -28,44 +28,40 @@
 > Play the comedy through expressions IN THE PROMPT (the ingredient images are now neutral): Bruno the
 > goofy doofus, Poppy the cheeky one. Keep faces readable and funny.
 
-## Scene SC01 (0:00-0:08) — Both asleep; Bruno wakes hungry and sneaks out
-Ingredients: (1) Bruno = `bruno-ingredient.jpg`; (2) Poppy = `poppy-ingredient.jpg`; (3) a single
-still of the DARK cozy bedroom (crop the "Cozy bedroom" panel from `location-sheet.jpg`).
+## Scene SC01 (0:00-0:04) — Both asleep; Bruno wakes hungry and slips out
+Ingredients (name them so @-mentions work): (1) @Bruno = `bruno-ingredient.jpg`; (2) @Poppy =
+`poppy-ingredient.jpg`; (3) a single still of the DARK cozy bedroom (crop the "Cozy bedroom" panel
+from `location-sheet.jpg`).
 **Continuity:** OPENER — no previous clip to attach.
-**ENTRY:** dark bedroom, both asleep in one bed. **EXIT:** Bruno has tiptoed out of frame; Poppy still
-asleep alone in bed (hands to SC02 via a CUT — different room).
+**ENTRY:** dark bedroom, both asleep in one bed. **EXIT:** @Bruno has just risen off the bed; @Poppy
+still asleep in bed (hands to SC02 via a CUT — different room).
 
-### Video prompt (paste into Veo)
-Using the provided reference images to lock identity: the big goofy caramel-brown bear is BRUNO and
-the small cream-white bunny is POPPY — replicate their exact appearance from the reference images
-(Bruno: caramel-brown fur, cowlick tuft, round belly, too-small forest-green hoodie; Poppy:
-cream-white fur, small buck teeth, long floppy ears, blush-pink sweater), Bruno clearly BIGGER. This
+### Video prompt (paste into Veo) — 4 seconds
+Using the provided reference images to lock identity: @Bruno is the big goofy caramel-brown bear and
+@Poppy is the small cream-white bunny — replicate their exact appearance from the reference images
+(@Bruno: caramel-brown fur, cowlick tuft, round belly, too-small forest-green hoodie; @Poppy:
+cream-white fur, small buck teeth, long floppy ears, blush-pink sweater), @Bruno clearly BIGGER. This
 is a dark cozy bedroom at 2am, matching the provided bedroom reference. IMPORTANT LIGHTING: the room
 is dark and dim, lit ONLY by soft blue moonlight through the window; relight both characters to match
 this dark night — they are softly, dimly moonlit, NOT brightly lit. Create a single continuous
-8-second shot in 3D animated Pixar/chibi style, soft 3D render, glossy cute look, shallow depth of
+4-second shot in 3D animated Pixar/chibi style, soft 3D render, glossy cute look, shallow depth of
 field, cute cinematic third-person framing. The whole clip is ONE smooth continuous action chain with
 natural motion and no snapping between poses:
-0:00-0:02 — Bruno and Poppy are asleep together under one blanket in the same bed, tiny Poppy curled
-against Bruno's side. Bruno's round belly gives a soft rumble and his eyes blink slowly open, awake
-with a hungry thought. Motion: both breathing gently, a small belly jiggle on the rumble, Bruno's
-eyelids slowly open.
-0:02-0:04 — moving carefully so he won't wake Poppy, Bruno gently lifts his big arm off her and eases
-his torso upright. Motion: his arm slowly lifts away from Poppy, his upper body curls up to sitting,
-Poppy stays asleep.
-0:04-0:06 — Bruno slides his legs off the bed to stand, then softly tucks the blanket back around the
-still-sleeping Poppy with both paws. Motion: legs swing off the bed and feet plant, he rises, paws
-pat the blanket gently around Poppy.
-0:06-0:08 — with one paw on his rumbling belly and a hopeful little grin, Bruno tiptoes away and out
-of frame to the side; Poppy sleeps on in the bed. Motion: two or three careful high-kneed tiptoe steps
-sideways, exiting the frame edge (no door shown).
-Camera: ONE slow gentle push-in toward the bed across the whole clip, settling on sleeping Poppy as
-Bruno slips out of frame. No cuts, no second angle, no whip pans.
-Include natural synchronized sound effects matching the visuals: Poppy's soft slow snoring, a low
+0:00-0:02 — @Bruno and @Poppy are asleep together under one blanket in the same bed, tiny @Poppy
+curled against @Bruno's side. @Bruno's round belly gives a soft rumble and his eyes blink slowly open,
+awake with a hungry thought. Motion: both breathing gently, a small belly jiggle on the rumble,
+@Bruno's eyelids slowly open.
+0:02-0:04 — moving carefully so he won't wake @Poppy, @Bruno gently lifts his big arm off her, eases
+his torso upright and slips his legs off the bed to stand, leaving @Poppy asleep. Motion: his arm
+lifts away from @Poppy, his torso curls up to sitting and rises, his feet plant on the floor; @Poppy
+sleeps on undisturbed.
+Camera: ONE slow gentle push-in toward the bed across the whole clip. No cuts, no second angle, no
+whip pans.
+Include natural synchronized sound effects matching the visuals: @Poppy's soft slow snoring, a low
 hungry tummy rumble around 0:01, a gentle blanket rustle. The characters make ONLY non-verbal sounds —
-a soft sleepy grunt from Bruno — never words. NO spoken words, NO dialogue, NO narration, NO music or
+a soft sleepy grunt from @Bruno — never words. NO spoken words, NO dialogue, NO narration, NO music or
 score in this clip — sound effects and wordless sounds only.
-Render the full 8 seconds as ONE continuous shot with a settled ending — do not cut off early, do not
+Render the full 4 seconds as ONE continuous shot with a settled ending — do not cut off early, do not
 add a second angle. Soft glossy 3D animated Pixar/chibi style, dark moonlit night, no on-screen text,
 captions, subtitles, or watermark.
 Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
