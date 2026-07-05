@@ -1,0 +1,15 @@
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.webp
+episodes/**/clips/
+episodes/**/storyboards/
+episodes/**/final/
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.png
+.claude/
