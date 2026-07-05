@@ -35,7 +35,7 @@ care…), its **location**, and the specific gags. See the theme backlog in
 | Path | What |
 |---|---|
 | `docs/CONCEPT.md` | Format bible: constants vs. per-episode variables, 4-beat comedy template, theme backlog, carried-over Veo/Flow lessons |
-| `assets/characters/` | The one-time Bruno & Poppy character sheet (locked designs + expression rows) — reused in every episode for consistency |
+| `assets/characters/` | The one-time per-character sheets — `BRUNO_SHEET_PROMPT.md` + `POPPY_SHEET_PROMPT.md` (each = portrait + full-body design sheet **and** a clean single "ingredient" image for Veo). Reused in every episode for consistency |
 | `episodes/EP001_midnight-snack/00_brief.md` | EP001: Midnight snack raid — headline + 4-beat scene arc + timing |
 | `episodes/EP001_midnight-snack/00b_location_sheet.md` | EP001 location sheet prompt (cozy apartment at night) |
 | `episodes/EP001_midnight-snack/01_photo_prompts.md` | Storyboard image prompts, ready for Flow |
@@ -45,7 +45,7 @@ care…), its **location**, and the specific gags. See the theme backlog in
 | `episodes/EP001_midnight-snack/final/` | Final CapCut export here |
 
 ## Production pipeline (per episode)
-1. Render the **character sheet** once (`assets/characters/`) — reuse forever.
+1. Render the **per-character sheets + ingredient images** once (`assets/characters/BRUNO_SHEET_PROMPT.md`, `POPPY_SHEET_PROMPT.md`) — reuse forever.
 2. Render the episode **location sheet** (`00b_location_sheet.md`).
 3. Render the **storyboards** (`01_photo_prompts.md`), attaching both sheets as references in Flow.
 4. Write/confirm **motion prompts** grounded in the actual storyboards (`02_motion_prompts.md`).
@@ -54,7 +54,7 @@ care…), its **location**, and the specific gags. See the theme backlog in
    add the `POV:` headline text.
 
 ## Status — EP001 (Midnight snack raid)
-- [ ] Render the Bruno & Poppy character sheet
+- [ ] Render the Bruno + Poppy sheets and their ingredient images (`assets/characters/`)
 - [ ] Render the EP001 location sheet (cozy apartment at night)
 - [ ] Render all 4 EP001 storyboards, check against the character + location sheets
 - [ ] Finalize motion prompts grounded in the rendered storyboards

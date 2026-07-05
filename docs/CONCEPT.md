@@ -49,10 +49,11 @@ These never change — this is what makes it recognizably "the same channel":
 - **Warm, wholesome, funny tone** — relatable and a little silly, always with a soft loving heart.
   Never mean-spirited, sad, crude, scary, or a real fight. The takeaway is always "aww, that's us."
 
-## 2. The characters (locked designs — full detail in the character sheet)
-> Render the character sheet ONCE (`assets/characters/CHARACTER_SHEET_PROMPT.md`) and attach it as a
-> reference in Flow for EVERY scene, so the couple stays identical across every episode. Restate the
-> key traits in prompt text too (Flow is stateless).
+## 2. The characters (locked designs — full detail in each character's sheet)
+> Render the two per-character sheets ONCE (`assets/characters/BRUNO_SHEET_PROMPT.md` +
+> `POPPY_SHEET_PROMPT.md`). Each file has a design sheet (portrait + full body) AND a clean single
+> "ingredient" image; feed the ingredient images to Flow for EVERY scene (see §7), so the couple
+> stays identical across every episode. Restate the key traits in prompt text too (Flow is stateless).
 
 **Bruno (bear boyfriend) — the lovable doofus:**
 - Chunky, rounded, huggable bear with a **comically round soft belly**; big-head chibi proportions;

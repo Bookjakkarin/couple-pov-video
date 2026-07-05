@@ -35,6 +35,8 @@ Save as: `location-sheet.jpg` (in this episode folder)
 
 ## How to use
 Upload `location-sheet.jpg` as a reference in Flow for every scene of this episode, alongside the
-character sheet (`assets/characters/character-sheet.jpg`). The location sheet keeps the apartment
-consistent scene-to-scene; the character sheet keeps Bruno and Poppy consistent. Restate the specific
+character references (`assets/characters/bruno-ingredient.jpg` + `poppy-ingredient.jpg` for video via
+Ingredients to Video; the per-character design sheets when rendering storyboards in Imagen). The
+location sheet keeps the apartment consistent scene-to-scene; the character references keep Bruno and
+Poppy consistent. Restate the specific
 room in each scene's prompt text too (Flow is stateless).

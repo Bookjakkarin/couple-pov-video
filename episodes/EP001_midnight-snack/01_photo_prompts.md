@@ -1,8 +1,8 @@
 # EP001 Photo Prompts (Storyboard Panels) — Bruno & Poppy: Midnight Snack Raid
 > Horizontal strip of 4 panels per scene, each a true 9:16 vertical rectangle, each panel = 2s
-> (4 × 2s = 8s per scene). 3D Pixar/chibi style throughout — attach the character sheet
-> (`assets/characters/character-sheet.jpg`) AND this episode's location sheet (`location-sheet.jpg`)
-> as references in Flow for every scene.
+> (4 × 2s = 8s per scene). 3D Pixar/chibi style throughout — when rendering these storyboards in
+> Imagen, attach the per-character design sheets (`assets/characters/bruno-sheet.jpg`,
+> `poppy-sheet.jpg`) AND this episode's location sheet (`location-sheet.jpg`) as references.
 > Panel timing is ABSOLUTE across the whole ~32s episode (continues scene to scene, never resets).
 > 4 scenes × 8s = 32s raw → trim to ~24-28s final in CapCut.
 > Style is 3D-animated, NON-photorealistic — sanity-check no "photorealistic" clause leaked in

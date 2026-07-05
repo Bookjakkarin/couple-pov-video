@@ -20,7 +20,9 @@ at once; load per phase.
    third-person expression-first camera, `POV:` headline), the 4-beat comedy template, the theme
    backlog (§5), the sound-writing pattern (§6), the camera language (§6a), and the carried-over
    Veo/Flow lessons (§7). **Never contradict it.**
-2. `assets/characters/CHARACTER_SHEET_PROMPT.md` — the locked Bruno & Poppy designs. The couple is
+2. `assets/characters/BRUNO_SHEET_PROMPT.md` + `assets/characters/POPPY_SHEET_PROMPT.md` — the
+   locked per-character designs (each: portrait + full-body sheet AND a clean single ingredient image
+   for Veo). The couple is
    the brand; never redesign them. Bruno = big goofy caramel-brown doofus bear (cowlick tuft,
    tongue-out grin, round belly, too-small green hoodie). Poppy = small cheeky cream-white
    troublemaker bunny (buck teeth, cocked eyebrow, super-expressive floppy ears, pink sweater).
