@@ -16,26 +16,33 @@ style: soft 3D-rendered characters with big-head chibi proportions, glossy cute 
 shapes, warm soft studio lighting, shallow depth of field, high-quality 3D animation render. All
 panels show the EXACT SAME two characters, unmistakably consistent in color, shape, and outfit
 across every panel:
-- BRUNO: a big, chunky, huggable bear boyfriend with big-head chibi proportions, soft warm
-  caramel-brown fur with a slightly lighter muzzle and belly, small round ears, a little dark-brown
-  nose, warm dark friendly eyes, a gentle sleepy-happy expression, wearing a cozy oversized
-  forest-green hoodie. He is clearly the BIGGER and taller of the two.
-- POPPY: a small, slender bunny girlfriend with big-head chibi proportions, soft cream-white fur,
-  pale-pink inner ears, a tiny pink nose, rosy cheeks, big sparkly expressive eyes, long floppy
-  ears, wearing an oversized blush-pink sweater and a small scrunchie on one ear. She is clearly the
-  SMALLER of the two.
+- BRUNO: a big, chunky, huggable bear boyfriend with big-head chibi proportions and a comically
+  round soft belly, soft warm caramel-brown fur with a slightly lighter muzzle and belly, tiny round
+  ears on his big head (funny exaggerated proportion), a springy cowlick tuft of fur sticking up on
+  top, a little dark-brown nose, big round googly expressive eyes, chubby cheeks, and a goofy lovable
+  open grin with the tip of his tongue poking out — a lovable doofus. He wears a cozy oversized
+  forest-green hoodie that's a size too small so his round belly peeks out at the bottom. He is
+  clearly the BIGGER and taller of the two.
+- POPPY: a small, springy bunny girlfriend with big-head chibi proportions, soft cream-white fur,
+  pale-pink inner ears, a tiny pink nose, rosy cheeks, big sparkly scheming eyes, one eyebrow cocked
+  in a mischievous "up to something" look, two prominent funny buck teeth in a cheeky sly grin, and
+  super-expressive long floppy ears (one with a little kink) that flop and perk with her mood. She
+  wears an oversized blush-pink sweater and a small scrunchie on one ear. She is clearly the SMALLER
+  of the two — the cheeky little troublemaker who starts the mischief.
 - Panel 1 [THE COUPLE — lock this]: Bruno and Poppy standing together side by side, full body,
-  facing forward, happy and relaxed, clearly a loving couple, with the big-bear / small-bunny size
-  contrast obvious. This is the hero reference the whole channel stays consistent to.
-- Panel 2 [Bruno — full body]: Bruno alone, full body, standing in a relaxed friendly pose, front
-  three-quarter view, for proportion and outfit reference.
-- Panel 3 [Bruno — expressions]: Bruno's head shown four times in a small row with four clear
-  expressions — happy, sleepy, surprised/caught-in-the-act, and giggling — for facial consistency.
-- Panel 4 [Poppy — full body]: Poppy alone, full body, standing in a lively friendly pose, front
-  three-quarter view, for proportion and outfit reference.
-- Panel 5 [Poppy — expressions]: Poppy's head shown four times in a small row with four clear
-  expressions — happy, mischievous, surprised/caught-in-the-act, and giggling — for facial
-  consistency.
+  mid-goof — Poppy with a cheeky buck-toothed grin mid-scheme, Bruno with a big goofy grin playing
+  along — clearly a fun, silly loving couple, with the big-bear / small-bunny size contrast obvious.
+  This is the hero reference the whole channel stays consistent to.
+- Panel 2 [Bruno — full body]: Bruno alone, full body, in a goofy over-eager pose (arms out, big
+  grin), front three-quarter view, for proportion and outfit reference.
+- Panel 3 [Bruno — expressions]: Bruno's head shown four times in a small row with four clear comedic
+  expressions — big goofy tongue-out grin, over-dramatic jaw-dropped shock, caught-in-the-act
+  sheepish, and a wheezing belly laugh with squished eyes — for facial consistency.
+- Panel 4 [Poppy — full body]: Poppy alone, full body, in a springy mischievous pose (leaning in
+  sly, one ear cocked), front three-quarter view, for proportion and outfit reference.
+- Panel 5 [Poppy — expressions]: Poppy's head shown four times in a small row with four clear comedic
+  expressions — cheeky buck-toothed grin, sly eyebrow-cocked scheming look, caught-in-the-act
+  bug-eyed, and a mischievous head-back cackle — for facial consistency.
 Consistent fur colors, markings, outfits, and body proportions across all 5 panels — it is
 unmistakably the same two characters everywhere, and the size difference between Bruno and Poppy is
 consistent. Each panel labeled with its title at the top. Soft, glossy, high-quality 3D animated
@@ -51,6 +58,7 @@ Save as: `character-sheet.jpg` (in this folder)
 ## How to use
 Attach `character-sheet.jpg` as a reference image in Flow for EVERY scene (storyboard and video),
 alongside that episode's location sheet. It keeps Bruno and Poppy identical across every episode.
-Restate their key traits in the prompt text too (Bruno = big caramel-brown bear in a green hoodie;
-Poppy = small cream-white bunny in a pink sweater) since Flow is stateless and won't remember between
+Restate their key traits in the prompt text too (Bruno = big goofy caramel-brown bear with a cowlick
+tuft + tongue-out grin in a too-small green hoodie; Poppy = small cheeky cream-white bunny with buck
+teeth + a cocked eyebrow in a pink sweater) since Flow is stateless and won't remember between
 generations.

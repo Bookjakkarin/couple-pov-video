@@ -12,10 +12,13 @@
 ```
 3D animated Pixar/chibi style, soft 3D render, big-head chibi proportions, glossy cute look, warm
 cozy lighting, shallow depth of field. The two characters are BRUNO — a big chunky caramel-brown
-bear boyfriend in a cozy oversized forest-green hoodie — and POPPY — a small cream-white bunny
-girlfriend in an oversized blush-pink sweater, long floppy ears — matching the attached character
-sheet, with Bruno clearly bigger than Poppy. Cute cinematic third-person framing that clearly shows
-the characters' faces and expressions.
+goofy bear boyfriend with a springy cowlick tuft, big round googly eyes, chubby cheeks, a tongue-out
+goofy grin, and a round belly peeking out of a too-small oversized forest-green hoodie — and POPPY —
+a small springy cheeky cream-white bunny girlfriend with two funny buck teeth, one eyebrow cocked
+mischievously, a sly grin, and super-expressive long floppy ears, in an oversized blush-pink
+sweater — matching the attached character sheet, with Bruno clearly bigger than Poppy. Keep their
+expressions big and comedic. Cute cinematic third-person framing that clearly shows the characters'
+faces and expressions.
 ```
 
 ## Shared negative prompt (append "Avoid: ..." to every scene below)

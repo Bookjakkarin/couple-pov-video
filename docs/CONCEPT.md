@@ -7,11 +7,15 @@
 ## 1. What's CONSTANT across every episode (the channel identity)
 These never change — this is what makes it recognizably "the same channel":
 - **The couple** — the same two characters in every episode (see §2 for their locked designs):
-  - **Bruno** — a big, cozy, chunky **bear boyfriend**. Chill, sleepy, gentle-giant, food-motivated.
-  - **Poppy** — a small, slender, lively **bunny girlfriend**. Expressive, energetic, a little
-    mischievous.
-  The **size/energy contrast** (big calm bear + small lively bunny) is the comedy engine — lean on
-  it in staging. They are the brand, like ปู่เล่า/แสง or the golden retriever — never redesign them.
+  - **Bruno** — a big, chunky, **goofy bear boyfriend**: a lovable doofus with a cowlick tuft, a
+    tongue-out goofy grin, a comically round belly, and big dramatic reactions. Over-eager, clumsy,
+    food-motivated.
+  - **Poppy** — a small, springy, **cheeky bunny girlfriend** (ทะเล้น): a mischievous little
+    troublemaker with a sly buck-toothed grin, a permanently cocked eyebrow, and super-expressive
+    floppy ears. She usually STARTS the mischief; Bruno gleefully plays along.
+  The comedy duo dynamic is **cheeky schemer bunny + lovable doofus bear**, and the **big-bear /
+  small-bunny size contrast** is the visual engine — lean on both in staging. They are the brand,
+  like ปู่เล่า/แสง or the golden retriever — never redesign them.
 - **3D Pixar/chibi art style** — soft 3D-rendered, big-head chibi proportions, glossy cute look,
   warm cozy lighting, shallow depth of field. Stated explicitly in EVERY prompt (Flow/Veo is
   stateless). **This channel is NON-photorealistic** — the opposite of dog-pov-video; never let a
@@ -50,21 +54,26 @@ These never change — this is what makes it recognizably "the same channel":
 > reference in Flow for EVERY scene, so the couple stays identical across every episode. Restate the
 > key traits in prompt text too (Flow is stateless).
 
-**Bruno (bear boyfriend):**
-- Chunky, rounded, huggable bear; big-head chibi proportions; soft **warm caramel-brown fur**,
-  slightly lighter muzzle/belly. Small round ears, little dark-brown nose, warm dark eyes, gentle
-  sleepy-friendly expression.
-- Wears a **cozy oversized hoodie** (default: soft forest-green), comfy homebody vibe.
-- Clearly the BIGGER/taller one. Personality reads: calm, sleepy, gentle, loves snacks.
+**Bruno (bear boyfriend) — the lovable doofus:**
+- Chunky, rounded, huggable bear with a **comically round soft belly**; big-head chibi proportions;
+  soft **warm caramel-brown fur**, slightly lighter muzzle/belly. **Tiny round ears on a big head**
+  (funny proportion), a **springy cowlick tuft** on top, little dark-brown nose, **big round googly
+  eyes**, chubby cheeks, and a **goofy open grin with the tongue-tip poking out**.
+- Wears a **cozy oversized hoodie** (default: forest-green) that's a size too small so his belly
+  peeks out — comedic homebody vibe.
+- Clearly the BIGGER/taller one. Personality reads: goofy, over-eager, clumsy, dramatic, snack-obsessed.
 
-**Poppy (bunny girlfriend):**
-- Small, slender bunny; big-head chibi proportions; **soft cream-white fur** with pale-pink inner
-  ears, tiny pink nose, rosy cheeks, big sparkly expressive eyes, long floppy ears.
-- Wears an **oversized pastel sweater** (default: blush pink), often a little scrunchie on one ear.
-- Clearly the SMALLER one. Personality reads: bubbly, expressive, playful, a bit mischievous.
+**Poppy (bunny girlfriend) — the cheeky troublemaker (ทะเล้น):**
+- Small, **springy** bunny; big-head chibi proportions; **soft cream-white fur** with pale-pink
+  inner ears, tiny pink nose, rosy cheeks, **big sparkly scheming eyes**, one **eyebrow cocked** in a
+  mischievous look, **two prominent funny buck teeth** in a sly cheeky grin, and **super-expressive
+  long floppy ears** (one with a little kink) that flop/perk with her mood as a comic device.
+- Wears an **oversized pastel sweater** (default: blush pink), a little scrunchie on one ear.
+- Clearly the SMALLER one. Personality reads: cheeky, teasing, springy schemer — the instigator.
 
 Only tiny per-episode accessories may change (a themed prop, seasonal item); the core designs never
-do. Keep the size contrast obvious in every two-shot.
+do. Keep the size contrast obvious in every two-shot, and keep both faces mid-goof — the funnier the
+expressions, the more shareable the clip.
 
 ## 3. Reusable comedy 4-beat template (shape stays, content reskins per theme)
 Each scene ≈ 8s (4 storyboard panels × 2s). 4 scenes ≈ 32s raw → trim to ~24-28s final in CapCut.

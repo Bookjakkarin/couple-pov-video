@@ -1,9 +1,9 @@
 # Bruno & Poppy — cute-couple comedy shorts (share-to-your-partner content)
 
 A separate content channel from `video-gen` (ปู่เล่า) and `dog-pov-video`. Every short is a
-**20-30 second, wordless, 3D-animated comedy** about the same cute couple — **Bruno** (a big cozy
-bear boyfriend) and **Poppy** (a small lively bunny girlfriend) — living out one tiny, universally
-relatable relationship moment. The kind of clip a viewer instantly sends to their own partner with
+**20-30 second, wordless, 3D-animated comedy** about the same cute couple — **Bruno** (a big goofy
+bear boyfriend, a lovable doofus) and **Poppy** (a small cheeky bunny girlfriend, the ทะเล้น
+troublemaker) — living out one tiny, universally relatable relationship moment. The kind of clip a viewer instantly sends to their own partner with
 "this is literally us."
 
 **No human speech, ever.** The characters emote entirely through non-verbal sound — giggles, gasps,

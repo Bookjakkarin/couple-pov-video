@@ -6,6 +6,10 @@
 > natively per clip; the characters NEVER speak words. NO music per clip — add ONE music bed globally
 > in CapCut. The `POV:` headline is added in CapCut, never baked into the clip.
 > Each scene is generated at ~8s; trim in CapCut to a snappy ~24-28s final.
+> Play the comedy BIG: Bruno is a goofy lovable doofus (cowlick tuft, tongue-out grin, round belly,
+> dramatic over-reactions); Poppy is the cheeky little troublemaker (buck teeth, cocked eyebrow,
+> super-expressive floppy ears, sly schemer energy). Keep their faces and reactions exaggerated and
+> funny in every clip — the goofier the expressions, the more shareable it is.
 
 ## Scene SC01 (0:00-0:08) — Bruno sneaks out of bed
 References to attach in Flow: character-sheet.jpg (Bruno) + location-sheet.jpg (cozy bedroom).
