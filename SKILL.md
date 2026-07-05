@@ -68,8 +68,11 @@ When Book says "new episode about X" or "produce the next backlog theme":
   contrast in staging. The goofier the faces, the more shareable.
 - **`POV:` headline** on every video, added in CapCut (figurative "this is your life" convention —
   NOT a first-person camera; the camera is cute cinematic third-person that reads both faces).
-- **Consistency:** attach the character sheet + the episode's location sheet as references in Flow
-  for EVERY scene; restate key traits in prompt text (Flow is stateless).
+- **Consistency:** use Flow's **"Ingredients to Video"** mode and feed **clean single-subject
+  ingredient images** (Bruno alone, Poppy alone, one still of the setting) — NOT the multi-panel
+  sheets, which Veo reads as a busy grid. Name each provided image by role in the prompt and tell Veo
+  to replicate it; also restate key traits in text (Flow is stateless). See CONCEPT.md §7 — this was
+  the EP001 "character not matching" fix.
 - **Style fidelity:** 3D Pixar/chibi, NON-photorealistic — sanity-check no "photorealistic" clause
   leaks in from dog-pov-video, and no ปู่เล่า template bugs. Negative prompts stay technical-only.
 - **Music once, globally, in CapCut** — never per Veo clip.

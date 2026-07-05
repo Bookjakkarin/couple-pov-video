@@ -150,7 +150,21 @@ Restate positively in every scene prompt:
 
 ## 7. What carries over from the sibling projects (lessons already learned — don't re-discover)
 - **Veo/Flow is stateless** — restate character designs, style, and camera in EVERY prompt, EVERY
-  scene. Attach the character sheet + location sheet as references every time.
+  scene.
+- **Feed references the way Veo 3.1 actually reads them (real EP001 failure — the character wasn't
+  transferring).** Root cause: a reference image dropped into plain text-to-video is largely ignored,
+  AND a multi-panel sheet reads as a busy grid, not as one character. Fixes, now standard:
+  1. Use Flow's **"Ingredients to Video"** mode (Veo 3.1, Jan 2026) — up to 4 reference images per
+     generation, designed for identity/setting consistency.
+  2. Feed **clean SINGLE-subject images** as ingredients — one clear Bruno, one clear Poppy, one
+     still of the setting — NOT the multi-panel character/location sheets. Render the dedicated
+     ingredient images (`assets/characters/bruno-ingredient.jpg`, `poppy-ingredient.jpg`) once and
+     reuse them; for the setting, crop the matching single panel out of the location sheet or use the
+     scene's storyboard. (The multi-panel sheets stay useful for human review + for anchoring the
+     look when rendering storyboards in Imagen.)
+  3. In the prompt text, **name each provided image by role** ("the bear = Bruno", "the bunny =
+     Poppy", "the setting") and explicitly tell Veo to *replicate their exact appearance from the
+     reference images*. Still restate the full written description too — Veo leans on both.
 - **Negative prompt = technical/quality/style terms ONLY**, never content-safety category words as
   exclusions. Naming danger/threat/scary/adult words in the `Avoid:` list gives no benefit and risks
   tripping the platform's policy filter (confirmed on dog-pov-video EP001). Tone is controlled by

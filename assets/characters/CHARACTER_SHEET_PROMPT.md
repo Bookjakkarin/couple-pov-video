@@ -56,9 +56,49 @@ logo, watermark.
 Save as: `character-sheet.jpg` (in this folder)
 
 ## How to use
-Attach `character-sheet.jpg` as a reference image in Flow for EVERY scene (storyboard and video),
-alongside that episode's location sheet. It keeps Bruno and Poppy identical across every episode.
-Restate their key traits in the prompt text too (Bruno = big goofy caramel-brown bear with a cowlick
-tuft + tongue-out grin in a too-small green hoodie; Poppy = small cheeky cream-white bunny with buck
-teeth + a cocked eyebrow in a pink sweater) since Flow is stateless and won't remember between
-generations.
+The multi-panel `character-sheet.jpg` above is for **human review and for anchoring the design when
+rendering STORYBOARDS in Imagen**. It is a poor direct reference for VIDEO: Veo reads a 5-panel grid
+as a busy image, not as one character, which is why dropping it into Flow doesn't reliably transfer
+the look. For **video generation, feed the clean single-subject ingredient images below** instead
+(see the two prompts in the next section). Restate their key traits in the prompt text too (Bruno =
+big goofy caramel-brown bear with a cowlick tuft + tongue-out grin in a too-small green hoodie; Poppy
+= small cheeky cream-white bunny with buck teeth + a cocked eyebrow in a pink sweater) since Flow is
+stateless and won't remember between generations.
+
+## Ingredient images (render these too — the clean single-subject refs Veo actually uses)
+> Veo 3.1's "Ingredients to Video" mode (in Flow) wants ONE clear subject per reference image, up to
+> 4 per generation. Render these two once and reuse them as the Bruno / Poppy ingredients in every
+> scene. (Quick alternative if you don't want to render them: crop Panel 2 and Panel 4 out of the
+> character sheet — but a purpose-rendered clean single is cleaner.)
+
+**BRUNO ingredient — IMAGE PROMPT:**
+```
+A single 3D animated Pixar/chibi character, full body, centered on a clean plain light-grey studio
+background, soft even studio lighting, glossy cute look, high-quality 3D render. The character is
+BRUNO: a big chunky goofy bear boyfriend with big-head chibi proportions and a comically round soft
+belly, soft warm caramel-brown fur with a slightly lighter muzzle and belly, tiny round ears on his
+big head, a springy cowlick tuft of fur sticking up on top, a little dark-brown nose, big round
+googly expressive eyes, chubby cheeks, and a goofy lovable open grin with the tip of his tongue
+poking out. He wears a cozy oversized forest-green hoodie that is a size too small so his round belly
+peeks out at the bottom. Friendly, silly, over-eager pose, facing forward, whole body clearly visible.
+Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
+illustration, multiple characters, panels, grid, split image, harsh flat lighting, extra limbs,
+deformed paws, distorted features, busy background, props, text, logo, watermark, blurry, low quality.
+```
+Save as: `bruno-ingredient.jpg` (in this folder)
+
+**POPPY ingredient — IMAGE PROMPT:**
+```
+A single 3D animated Pixar/chibi character, full body, centered on a clean plain light-grey studio
+background, soft even studio lighting, glossy cute look, high-quality 3D render. The character is
+POPPY: a small springy cheeky bunny girlfriend with big-head chibi proportions, soft cream-white fur,
+pale-pink inner ears, a tiny pink nose, rosy cheeks, big sparkly scheming eyes, one eyebrow cocked in
+a mischievous "up to something" look, two prominent funny buck teeth in a cheeky sly grin, and
+super-expressive long floppy ears (one with a little kink). She wears an oversized blush-pink sweater
+and a small scrunchie on one ear. Springy, mischievous, leaning-in pose, facing forward, whole body
+clearly visible.
+Avoid: photorealistic, live-action, realistic animal, 2D flat cartoon, anime, hand-drawn
+illustration, multiple characters, panels, grid, split image, harsh flat lighting, extra limbs,
+deformed paws, distorted features, busy background, props, text, logo, watermark, blurry, low quality.
+```
+Save as: `poppy-ingredient.jpg` (in this folder)
