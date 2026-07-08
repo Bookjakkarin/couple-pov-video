@@ -77,9 +77,11 @@ Read the scene's motion prompt AND the scene before/after it. Hard-fail unless A
   of the previous scene's EXIT (EXIT of SCn == opening of SCn+1 — compare the two word-for-word; flag
   any mismatch). For a CUT scene: the boundary is a genuine location/time change and it does NOT
   attach/extend the previous clip. Flag a CUT that should be CONTINUOUS (same place/time) or vice versa.
-- [ ] **One clean camera move per clip.** A single, smooth, motivated camera move (one push-in / one
-  arc / one settle) — no multiple angles, no whip pans, no cuts inside one 8s clip. Multiple moves =
-  jarring transitions.
+- [ ] **Camera moves are clean within each sub-scene.** On Veo (one-shot 8s clips): ONE smooth
+  motivated move per clip, no cuts inside it. On Seedance (multi-scene 15s clips, allowed by the
+  tool — playbook Tooling note): cuts BETWEEN sub-scenes are fine, but each individual sub-scene must
+  still have one clean motivated move, not a whip pan or multiple angles within itself. Check which
+  tool the episode targets before flagging a cut as a failure.
 - [ ] **Expression timing is right.** The described face matches the beat's emotional logic at that
   moment (surprised DURING the reveal, giggling AFTER recognition — not before).
 - [ ] **Presence / relationship logic (common sense).** Who is on screen and where makes physical
