@@ -102,6 +102,33 @@ When Book says "new episode about X" or "produce the next backlog theme":
   scary. Always end on the warm button that earns the partner-tag share.
 - Always propose, then wait for "ต่อ".
 
+## Seedance 2.0 prompt format (current generator — VALIDATED, use this)
+Book is now generating on **Seedance 2.0** (seedance2ai.io). It behaves differently from Veo/Flow —
+this format is confirmed working:
+- **Longer, multi-scene clips.** Seedance does **up to 15s per clip and allows MULTIPLE scenes inside
+  one clip** (cuts within a clip are fine — the opposite of Veo's one-shot rule). Plan an episode as
+  **2 clips × 15s (~30s total)**, each with several timed sub-beats.
+- **`@N` reference tags.** Seedance references uploaded media by number; **Book assigns the numbers**
+  and they change per clip, so ALWAYS restate at the top what each `@` is. Typical setup:
+  - Clip 1: `@1` Bruno · `@2` Poppy · `@3` size sheet · `@4` location.
+  - Clip 2 (continuation): `@1` previous video · `@2` last frame of previous video · `@3` Bruno ·
+    `@4` Poppy · `@5` size sheet · `@6` location. Open with: "continue directly from the previous
+    video @1, begin on its exact final frame @2, no jump."
+- **Prompt skeleton (concise but complete):**
+  1. *(continuation clips)* continuity line — continue from previous video + begin on its last frame.
+  2. Style + cast + setting + lighting + wordless line: 3D Pixar/chibi; @Bruno & @Poppy on-model to
+     the size sheet, Bruno clearly BIGGER; the location tag; dark-2am + "relight to match"; non-verbal
+     sounds only, NO speech, NO music.
+  3. Timed sub-beats (`0:00–0:04`, `0:04–0:08`, …): each = action + brief Motion + Sound; keep
+     cause→effect (no laugh before eye-contact) and presence logic.
+  4. Camera line: gentle cozy moves, smooth cuts between sub-scenes.
+  5. Short Avoid line: technical/style + speech/music + off-model + reaction-before-trigger (NO
+     danger/scary words — playbook §D).
+- Keep Seedance prompts **tighter** than the Veo ones (short Avoid list, not the giant one).
+- Universal rules still apply: dark relight, wordless, continuity via previous-video + last-frame
+  tags, cause→effect, wholesome. (Tool-specific mechanics live in `VIDEO_PLAYBOOK.md`; this is the
+  couple-channel working template. EP001's Seedance run is the worked example.)
+
 ## Being the content brain
 When Book asks for themes, generate in bulk (10-20), each as a one-line relatable couple moment + a
 draft `POV:` headline, ranked by shareability ("would someone tag their partner?") × ease-of-render.
